@@ -1,0 +1,129 @@
+city	population
+Youngstown	115436
+Yankton	12011
+Yakima	49826
+Worcester	161799
+Wisconsin Dells	2521
+Winston-Salem	131885
+Winnipeg	564473
+Winchester	20217
+Wilmington	139238
+Wilmington	70195
+Williston	13336
+Williamsport	33401
+Williamson	5219
+Wichita Falls	94201
+Wichita	279835
+Wheeling	43070
+West Palm Beach	63305
+Wenatchee	17257
+Weed	2879
+Waycross	19371
+Wausau	32426
+Waukegan	67653
+Watertown	15649
+Watertown	27861
+Waterloo	75985
+Waterbury	103266
+Washington	638432
+Warren	12146
+Walla Walla	25618
+Waco	101261
+Vincennes	20857
+Victoria	50695
+Vicksburg	25434
+Vancouver	414281
+Valley City	7774
+Valdosta	37596
+Utica	75632
+Uniontown	14510
+Tyler	70508
+Twin Falls	26209
+Tuscaloosa	75211
+Tupelo	23905
+Tulsa	360919
+Tucson	330537
+Trinidad	9663
+Trenton	92124
+Traverse City	15516
+Toronto	599217
+Topeka	115266
+Toledo	354635
+Texarkana	31271
+Terre Haute	61125
+Tampa	271523
+Tallahassee	81548
+Tacoma	158501
+Syracuse	170105
+Swainsboro	7602
+Sumter	24890
+Stroudsburg	5148
+Stockton	149779
+Stevens Point	22970
+Steubenville	26400
+Sterling	11385
+Staunton	21857
+Springfield	72563
+Springfield	133116
+Springfield	152319
+Springfield	100054
+Spokane	171300
+South Bend	109727
+Sioux Falls	81343
+Sioux City	82003
+Shreveport	205820
+Sherman	30413
+Sheridan	15146
+Seminole	8590
+Selma	26684
+Sedalia	20927
+Seattle	493846
+Scranton	88117
+Scottsbluff	14156
+Schenectady	67972
+Savannah	141634
+Sault Sainte Marie	14448
+Sarasota	48868
+Santa Rosa	83320
+Santa Fe	48953
+Santa Barbara	74414
+Santa Ana	204023
+San Jose	629546
+San Francisco	678974
+Sandusky	31360
+San Diego	875538
+San Bernardino	118794
+San Antonio	786023
+San Angelo	73240
+Salt Lake City	163697
+Salisbury	16429
+Salinas	80479
+Salina	41843
+Salida	44870
+Salem	89233
+Saint Paul	270230
+Saint Louis	453085
+Saint Joseph	76691
+Saint Joseph	9622
+Saint Johnsbury	7150
+Saint Cloud	42566
+Saint Augustine	11985
+Saginaw	77508
+Sacramento	275741
+Rutland	18436
+Roswell	39676
+Rocky Mount	41283
+Rock Springs	19458
+Rockford	139712
+Rochester	241741
+Rochester	57890
+Roanoke	100220
+Richmond	219214
+Richmond	41349
+Richfield	5482
+Rhinelander	7873
+Reno	100756
+Regina	162613
+Red Bluff	9490
+Reading	78686
+Ravenna	11987
