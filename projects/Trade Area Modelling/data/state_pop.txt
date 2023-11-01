@@ -1,53 +1,52 @@
-table with row headers in column A and column headers in rows 3 through 4. (leading dots indicate sub-parts)	
-State	2022
-.Alabama	"5,074,296"
-.Alaska	"733,583"
-.Arizona	"7,359,197"
-.Arkansas	"3,045,637"
-.California	"39,029,342"
-.Colorado	"5,839,926"
-.Connecticut	"3,626,205"
-.Delaware	"1,018,396"
-.District of Columbia	"671,803"
-.Florida	"22,244,823"
-.Georgia	"10,912,876"
-.Hawaii	"1,440,196"
-.Idaho	"1,939,033"
-.Illinois	"12,582,032"
-.Indiana	"6,833,037"
-.Iowa	"3,200,517"
-.Kansas	"2,937,150"
-.Kentucky	"4,512,310"
-.Louisiana	"4,590,241"
-.Maine	"1,385,340"
-.Maryland	"6,164,660"
-.Massachusetts	"6,981,974"
-.Michigan	"10,034,113"
-.Minnesota	"5,717,184"
-.Mississippi	"2,940,057"
-.Missouri	"6,177,957"
-.Montana	"1,122,867"
-.Nebraska	"1,967,923"
-.Nevada	"3,177,772"
-.New Hampshire	"1,395,231"
-.New Jersey	"9,261,699"
-.New Mexico	"2,113,344"
-.New York	"19,677,151"
-.North Carolina	"10,698,973"
-.North Dakota	"779,261"
-.Ohio	"11,756,058"
-.Oklahoma	"4,019,800"
-.Oregon	"4,240,137"
-.Pennsylvania	"12,972,008"
-.Rhode Island	"1,093,734"
-.South Carolina	"5,282,634"
-.South Dakota	"909,824"
-.Tennessee	"7,051,339"
-.Texas	"30,029,572"
-.Utah	"3,380,800"
-.Vermont	"647,064"
-.Virginia	"8,683,619"
-.Washington	"7,785,786"
-.West Virginia	"1,775,156"
-.Wisconsin	"5,892,539"
-.Wyoming	"581,381"
+State	estimated_pop_2022
+Alabama	5074296.00
+Alaska	733583.00
+Arizona	7359197.00
+Arkansas	3045637.00
+California	39029342.00
+Colorado	5839926.00
+Connecticut	3626205.00
+Delaware	1018396.00
+District of Columbia	671803.00
+Florida	22244823.00
+Georgia	10912876.00
+Hawaii	1440196.00
+Idaho	1939033.00
+Illinois	12582032.00
+Indiana	6833037.00
+Iowa	3200517.00
+Kansas	2937150.00
+Kentucky	4512310.00
+Louisiana	4590241.00
+Maine	1385340.00
+Maryland	6164660.00
+Massachusetts	6981974.00
+Michigan	10034113.00
+Minnesota	5717184.00
+Mississippi	2940057.00
+Missouri	6177957.00
+Montana	1122867.00
+Nebraska	1967923.00
+Nevada	3177772.00
+New Hampshire	1395231.00
+New Jersey	9261699.00
+New Mexico	2113344.00
+New York	19677151.00
+North Carolina	10698973.00
+North Dakota	779261.00
+Ohio	11756058.00
+Oklahoma	4019800.00
+Oregon	4240137.00
+Pennsylvania	12972008.00
+Rhode Island	1093734.00
+South Carolina	5282634.00
+South Dakota	909824.00
+Tennessee	7051339.00
+Texas	30029572.00
+Utah	3380800.00
+Vermont	647064.00
+Virginia	8683619.00
+Washington	7785786.00
+West Virginia	1775156.00
+Wisconsin	5892539.00
+Wyoming	581381.00
