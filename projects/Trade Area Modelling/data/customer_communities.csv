@@ -1,0 +1,1251 @@
+location,neighborhoods,population,table_date,sales
+"Albuquerque, New Mexico",Sun North Estates,93,2023-11-21,597.8063748371326
+"Albuquerque, New Mexico",Cherry Hills,842,2023-11-21,5412.39750121361
+"Albuquerque, New Mexico",Alameda N Valley,5,2023-11-21,32.14012767941573
+"Albuquerque, New Mexico",West Mesa,4249,2023-11-21,27312.68050196749
+"Albuquerque, New Mexico",Jerry Cline Park,226,2023-11-21,1452.7337711095909
+"Albuquerque, New Mexico",Hodgin,512,2023-11-21,3291.1490743721706
+"Albuquerque, New Mexico",Greater Gardner,14,2023-11-21,89.99235750236404
+"Albuquerque, New Mexico",Cottonwood Heights,1411,2023-11-21,9069.94403113112
+"Albuquerque, New Mexico",West Bluff,1100,2023-11-21,7070.828089471461
+"Albuquerque, New Mexico",Carmel,24,2023-11-21,154.2726128611955
+"Albuquerque, New Mexico",Trumbull Village,174,2023-11-21,1118.4764432436673
+"Albuquerque, New Mexico",Sandia Ridge,1110,2023-11-21,7135.108344830292
+"Albuquerque, New Mexico",Boyds-Leslie Park,248,2023-11-21,1594.1503328990204
+"Albuquerque, New Mexico",Sonora,50,2023-11-21,321.4012767941573
+"Albuquerque, New Mexico",Oso Grande,192,2023-11-21,1234.180902889564
+"Albuquerque, New Mexico",Alban Hills,795,2023-11-21,5110.280301027101
+"Albuquerque, New Mexico",Alamosa,1370,2023-11-21,8806.39498415991
+"Albuquerque, New Mexico",Broadway Central,573,2023-11-21,3683.2586320610426
+"Albuquerque, New Mexico",Glenwood Hills,1157,2023-11-21,7437.2255450167995
+"Albuquerque, New Mexico",Heritage East,918,2023-11-21,5900.9274419407275
+"Albuquerque, New Mexico",Rio Grande Blvd,1475,2023-11-21,9481.33766542764
+"Albuquerque, New Mexico",South Guadalupe Trail,97,2023-11-21,623.5184769806651
+"Albuquerque, New Mexico",Winterwood Park,13,2023-11-21,83.5643319664809
+"Albuquerque, New Mexico",Seven Bar North,538,2023-11-21,3458.2777383051325
+"Albuquerque, New Mexico",Fair Heights,448,2023-11-21,2879.7554400756494
+"Albuquerque, New Mexico",Tanoan,1103,2023-11-21,7090.11216607911
+"Albuquerque, New Mexico",Wells Park,263,2023-11-21,1690.5707159372673
+"Albuquerque, New Mexico",Onate,692,2023-11-21,4448.193670831138
+"Albuquerque, New Mexico",Glenwood Hills South Casa Grande,711,2023-11-21,4570.326156012917
+"Albuquerque, New Mexico",Parkway,164,2023-11-21,1054.196187884836
+"Arlington, Texas",North,24309,2023-11-21,156258.8727517834
+"Arlington, Texas",Southwest,8366,2023-11-21,53776.8616331984
+"Arlington, Texas",Central,1565,2023-11-21,10059.859963657123
+"Arlington, Texas",West,73036,2023-11-21,469477.2730387615
+"Arlington, Texas",East,88669,2023-11-21,569966.5962412227
+"Arlington, Texas",Southeast,67500,2023-11-21,433891.72367211233
+"Atlanta, Georgia",Capitol View Manor,200,2023-11-21,1285.6051071766292
+"Atlanta, Georgia",Englewood Manor,0,2023-11-21,0.0
+"Atlanta, Georgia",Ben Hill Forest,62,2023-11-21,398.5375832247551
+"Atlanta, Georgia",Beecher Hills,292,2023-11-21,1876.9834564778787
+"Atlanta, Georgia",Fort McPherson,45,2023-11-21,289.26114911474156
+"Atlanta, Georgia",Ben Hill,884,2023-11-21,5682.374573720701
+"Atlanta, Georgia",Fairburn Mays,117,2023-11-21,752.0789876983281
+"Atlanta, Georgia",Tuxedo Park,910,2023-11-21,5849.503237653663
+"Atlanta, Georgia",English Park,58,2023-11-21,372.82548108122245
+"Atlanta, Georgia",Niskey Cove,1046,2023-11-21,6723.714710533772
+"Atlanta, Georgia",Chastain Park,766,2023-11-21,4923.867560486489
+"Atlanta, Georgia",State Facility,127,2023-11-21,816.3592430571596
+"Atlanta, Georgia",Ashview Heights,715,2023-11-21,4596.038258156449
+"Atlanta, Georgia",Randall Mill,61,2023-11-21,392.1095576888719
+"Atlanta, Georgia",Lindridge - Martin Manor,4078,2023-11-21,26213.48813533147
+"Atlanta, Georgia",Betmar LaVilla,409,2023-11-21,2629.0624441762066
+"Atlanta, Georgia",Florida Heights,1118,2023-11-21,7186.532549117357
+"Atlanta, Georgia",Bankhead,1619,2023-11-21,10406.973342594814
+"Atlanta, Georgia",Marietta Street Artery,422,2023-11-21,2712.6267761426875
+"Atlanta, Georgia",Cross Creek,1866,2023-11-21,11994.69564995795
+"Atlanta, Georgia",The Villages at Carver,84,2023-11-21,539.9541450141844
+"Atlanta, Georgia",Oakland,52,2023-11-21,334.2573278659236
+"Atlanta, Georgia",Oakcliff,37,2023-11-21,237.83694482767643
+"Atlanta, Georgia",Fairburn Road - Wisteria Lane,14,2023-11-21,89.99235750236404
+"Atlanta, Georgia",Midtown,6632,2023-11-21,42630.66535397703
+"Atlanta, Georgia",Butner-Tell,90,2023-11-21,578.5222982294831
+"Atlanta, Georgia",Pittsburgh,2874,2023-11-21,18474.14539012816
+"Atlanta, Georgia",Audobon Forest West,114,2023-11-21,732.7949110906787
+"Austin, Texas",Cantarra,53,2023-11-21,340.6853534018067
+"Austin, Texas",MLK,2668,2023-11-21,17149.972129736238
+"Austin, Texas",North Shoal Creek,489,2023-11-21,3143.3044870468584
+"Austin, Texas",Crestview,3150,2023-11-21,20248.28043803191
+"Austin, Texas",Wooten,398,2023-11-21,2558.354163281492
+"Austin, Texas",Dessau Estates,1204,2023-11-21,7739.342745203309
+"Austin, Texas",Rosewood,3147,2023-11-21,20228.99636142426
+"Austin, Texas",North Lamar,1287,2023-11-21,8272.868864681608
+"Austin, Texas",University Hills,25,2023-11-21,160.70063839707865
+"Austin, Texas",Old West Austin,3445,2023-11-21,22144.547971117438
+"Austin, Texas",Hancock,3295,2023-11-21,21180.344140734967
+"Austin, Texas",Windsor Park,10997,2023-11-21,70688.99681810697
+"Austin, Texas",Upper Boggy Creek,4089,2023-11-21,26284.196416226183
+"Austin, Texas",Govalle,301,2023-11-21,1934.8356863008273
+"Austin, Texas",Downtown,2736,2023-11-21,17587.07786617629
+"Austin, Texas",Parker Lane,1110,2023-11-21,7135.108344830292
+"Austin, Texas",Franklin Park,14609,2023-11-21,93907.02505371688
+"Austin, Texas",Pleasant Valley,7864,2023-11-21,50549.99281418506
+"Austin, Texas",Pecan Springs Springdale,1598,2023-11-21,10271.984806341266
+"Austin, Texas",Brentwood,477,2023-11-21,3066.1681806162605
+"Austin, Texas",North University,1489,2023-11-21,9571.330022930006
+"Austin, Texas",West Congress,869,2023-11-21,5585.954190682453
+"Austin, Texas",University of Texas,5286,2023-11-21,33978.542982678315
+"Austin, Texas",North Burnett,2851,2023-11-21,18326.30080280285
+"Austin, Texas",East Congress,2753,2023-11-21,17696.354300286304
+"Austin, Texas",Rosedale,2835,2023-11-21,18223.45239422872
+"Austin, Texas",Windsor Hills,847,2023-11-21,5444.537628893026
+"Austin, Texas",Heritage Hills,4174,2023-11-21,26830.578586776253
+"Baltimore, Maryland",Loch Raven,4688,2023-11-21,30134.58371222019
+"Baltimore, Maryland",Holabird Industrial Park,10,2023-11-21,64.28025535883145
+"Baltimore, Maryland",Mount Vernon,3714,2023-11-21,23873.686840270006
+"Baltimore, Maryland",Cameron Village,708,2023-11-21,4551.042079405267
+"Baltimore, Maryland",Hunting Ridge,677,2023-11-21,4351.77328779289
+"Baltimore, Maryland",Biddle Street,540,2023-11-21,3471.1337893768987
+"Baltimore, Maryland",Morgan Park,6,2023-11-21,38.56815321529888
+"Baltimore, Maryland",Purnell,91,2023-11-21,584.9503237653663
+"Baltimore, Maryland",Little Italy,18,2023-11-21,115.70445964589662
+"Baltimore, Maryland",Carroll Park,27,2023-11-21,173.55668946884495
+"Baltimore, Maryland",Herring Run Park,9,2023-11-21,57.85222982294831
+"Baltimore, Maryland",Woodbourne Heights,912,2023-11-21,5862.35928872543
+"Baltimore, Maryland",Winchester,1288,2023-11-21,8279.296890217493
+"Baltimore, Maryland",West Forest Park,600,2023-11-21,3856.8153215298876
+"Baltimore, Maryland",Poppleton,1274,2023-11-21,8189.304532715129
+"Baltimore, Maryland",Stonewood-Pentwood-Winston,1061,2023-11-21,6820.135093572018
+"Baltimore, Maryland",Evergreen Lawn,258,2023-11-21,1658.4305882578517
+"Baltimore, Maryland",Levindale,93,2023-11-21,597.8063748371326
+"Baltimore, Maryland",Cedarcroft,210,2023-11-21,1349.8853625354607
+"Baltimore, Maryland",Dunbar-Broadway,143,2023-11-21,919.2076516312901
+"Baltimore, Maryland",Parkview - Woodbrook,1841,2023-11-21,11833.995011560872
+"Baltimore, Maryland",Lucille Park,458,2023-11-21,2944.0356954344807
+"Baltimore, Maryland",Winston-Govans,849,2023-11-21,5457.393679964791
+"Baltimore, Maryland",Easterwood,1390,2023-11-21,8934.955494877573
+"Baltimore, Maryland",Patterson Park,4677,2023-11-21,30063.875431325472
+"Baltimore, Maryland",Medford,263,2023-11-21,1690.5707159372673
+"Baltimore, Maryland",Highlandtown,2379,2023-11-21,15292.272749866004
+"Baltimore, Maryland",Sharp-Leadenhall,443,2023-11-21,2847.6153123962335
+"Baltimore, Maryland",Violetville,2024,2023-11-21,13010.323684627489
+"Baltimore, Maryland",Hanlon-Longwood,2070,2023-11-21,13306.012859278111
+"Boston, Massachusetts",Kenmore,5472,2023-11-21,35174.15573235258
+"Boston, Massachusetts",East Boston,4457,2023-11-21,28649.709813431182
+"Boston, Massachusetts",North End,2417,2023-11-21,15536.537720229564
+"Boston, Massachusetts",Boston Harbor Islands,0,2023-11-21,0.0
+"Boston, Massachusetts",Bay Village,2992,2023-11-21,19232.652403362372
+"Boston, Massachusetts",Charlestown,14149,2023-11-21,90950.13330721064
+"Boston, Massachusetts",Chinatown,47,2023-11-21,302.1172001865079
+"Boston, Massachusetts",Long Island,272,2023-11-21,1748.4229457602157
+"Boston, Massachusetts",Hyde Park,13292,2023-11-21,85441.31542295878
+"Boston, Massachusetts",Downtown Crossing,181,2023-11-21,1163.4726219948493
+"Boston, Massachusetts",Government Center,35,2023-11-21,224.9808937559101
+"Boston, Massachusetts",Back Bay,7388,2023-11-21,47490.252659104684
+"Boston, Massachusetts",Downtown,1863,2023-11-21,11975.4115733503
+"Boston, Massachusetts",North Dorchester,8901,2023-11-21,57215.85529489588
+"Boston, Massachusetts",Mattapan,17841,2023-11-21,114682.40358569121
+"Boston, Massachusetts",West End,3747,2023-11-21,24085.811682954147
+"Boston, Massachusetts",Allston,10480,2023-11-21,67365.70761605537
+"Boston, Massachusetts",Roxbury,51051,2023-11-21,328157.13163237047
+"Boston, Massachusetts",Haymarket,212,2023-11-21,1362.7414136072268
+"Boston, Massachusetts",South Dorchester,15306,2023-11-21,98387.35885222744
+"Boston, Massachusetts",Beacon Hill,4944,2023-11-21,31780.158249406275
+"Boston, Massachusetts",Brighton,13833,2023-11-21,88918.87723787155
+"Charlotte, North Carolina",Ponderosa-Wingate,424,2023-11-21,2725.4828272144537
+"Charlotte, North Carolina",Arbor Glen,34,2023-11-21,218.55286822002697
+"Charlotte, North Carolina",Highland Creek,6983,2023-11-21,44886.90231707201
+"Charlotte, North Carolina",Sardis Forest,2035,2023-11-21,13081.031965522201
+"Charlotte, North Carolina",Eastway-Sheffield Park,251,2023-11-21,1613.4344095066697
+"Charlotte, North Carolina",Sardis Woods,1214,2023-11-21,7803.623000562141
+"Charlotte, North Carolina",Colonial Village,1025,2023-11-21,6588.726174280225
+"Charlotte, North Carolina",Wessex Square,1434,2023-11-21,9217.788618456432
+"Charlotte, North Carolina",Lincoln Heights,328,2023-11-21,2108.392375769672
+"Charlotte, North Carolina",Westchester,1696,2023-11-21,10901.931308857815
+"Charlotte, North Carolina",Wilmore,1528,2023-11-21,9822.023018829446
+"Charlotte, North Carolina",University Park,302,2023-11-21,1941.26371183671
+"Charlotte, North Carolina",Firestone-Garden Park,2760,2023-11-21,17741.350479037483
+"Charlotte, North Carolina",Druid Hills South,753,2023-11-21,4840.303228520009
+"Charlotte, North Carolina",Oak Forest,1583,2023-11-21,10175.56442330302
+"Charlotte, North Carolina",East Forest,8466,2023-11-21,54419.664186786715
+"Charlotte, North Carolina",Smallwood,429,2023-11-21,2757.6229548938695
+"Charlotte, North Carolina",Sherwood Forest,2221,2023-11-21,14276.644715196468
+"Charlotte, North Carolina",Yorkmount,6036,2023-11-21,38799.56213459068
+"Charlotte, North Carolina",University City North,1386,2023-11-21,8909.24339273404
+"Charlotte, North Carolina",McCrorey Heights,30,2023-11-21,192.8407660764944
+"Charlotte, North Carolina",Reid Park,717,2023-11-21,4608.894309228216
+"Charlotte, North Carolina",Ballantyne East,2648,2023-11-21,17021.411619018574
+"Charlotte, North Carolina",Commonwealth,101,2023-11-21,649.2305791241978
+"Charlotte, North Carolina",North Charlotte,116,2023-11-21,745.6509621624449
+"Charlotte, North Carolina",Madison Park,2692,2023-11-21,17304.244742597428
+"Charlotte, North Carolina",Harwood Lane,3938,2023-11-21,25313.56456030783
+"Charlotte, North Carolina",Briarcreek-Woodland,71,2023-11-21,456.38981304770334
+"Charlotte, North Carolina",Third Ward,1449,2023-11-21,9314.20900149468
+"Charlotte, North Carolina",Charlotte Douglas International Airport,55,2023-11-21,353.54140447357304
+"Chicago, Illinois",Bronzeville,18911,2023-11-21,121560.39090908617
+"Chicago, Illinois",Streeterville,3688,2023-11-21,23706.558176337046
+"Chicago, Illinois",New Eastside,4619,2023-11-21,29691.04995024425
+"Chicago, Illinois",West De Paul,1070,2023-11-21,6877.987323394967
+"Chicago, Illinois",Bowmanville,3732,2023-11-21,23989.3912999159
+"Chicago, Illinois",The Villa,81,2023-11-21,520.6700684065348
+"Chicago, Illinois",Old Edgebrook,39,2023-11-21,250.69299589944268
+"Chicago, Illinois",Trumbull Park,93,2023-11-21,597.8063748371326
+"Chicago, Illinois",Chicago Lawn,17488,2023-11-21,112413.31057152446
+"Chicago, Illinois",West Woodlawn,7109,2023-11-21,45696.83353459329
+"Chicago, Illinois",Rosemoor,2281,2023-11-21,14662.326247349456
+"Chicago, Illinois",Mount Greenwood Heights,539,2023-11-21,3464.7057638410156
+"Chicago, Illinois",Old Town Triangle,6115,2023-11-21,39307.37615192544
+"Chicago, Illinois",Dunning,3820,2023-11-21,24555.05754707362
+"Chicago, Illinois",Gold Coast,7223,2023-11-21,46429.628445683964
+"Chicago, Illinois",Oakland,1105,2023-11-21,7102.968217150877
+"Chicago, Illinois",Pulaski Park,368,2023-11-21,2365.5133972049975
+"Chicago, Illinois",Logan Square,76261,2023-11-21,490207.6553919847
+"Chicago, Illinois",Edgewater Glen,1975,2023-11-21,12695.350433369213
+"Chicago, Illinois",Old Norwood Park,1993,2023-11-21,12811.054893015109
+"Chicago, Illinois",The Robert Taylor Homes,306,2023-11-21,1966.975813980243
+"Chicago, Illinois",Stony Island Park,1262,2023-11-21,8112.16822628453
+"Chicago, Illinois",Sleepy Hollow,1069,2023-11-21,6871.559297859084
+"Chicago, Illinois",Edgebrook,3974,2023-11-21,25544.973479599623
+"Chicago, Illinois",South Loop,28258,2023-11-21,181643.14559298594
+"Chicago, Illinois",Hegewisch,10479,2023-11-21,67359.27959051948
+"Chicago, Illinois",LeClaire Courts,1104,2023-11-21,7096.540191614995
+"Chicago, Illinois",Schorsch Forest View,186,2023-11-21,1195.6127496742652
+"Chicago, Illinois",Roscoe Village,1624,2023-11-21,10439.113470274231
+"Chicago, Illinois",Kilbourn Park,6328,2023-11-21,40676.54559106855
+"Cleveland, Ohio",South Collinwood,6397,2023-11-21,41120.079353044486
+"Cleveland, Ohio",University District,72,2023-11-21,462.8178385835865
+"Cleveland, Ohio",Woodland Hills,871,2023-11-21,5598.81024175422
+"Cleveland, Ohio",Downtown,6036,2023-11-21,38799.56213459068
+"Cleveland, Ohio",Industrial Valley,4,2023-11-21,25.712102143532583
+"Cleveland, Ohio",Union Miles Park,1650,2023-11-21,10606.24213420719
+"Cleveland, Ohio",Central,6989,2023-11-21,44925.470470287306
+"Cleveland, Ohio",Fairfax,3575,2023-11-21,22980.191290782248
+"Cleveland, Ohio",Brooklyn Centre,5355,2023-11-21,34422.076744654245
+"Cleveland, Ohio",Kinsman,901,2023-11-21,5791.651007830715
+"Cleveland, Ohio",Kamm's Corner,14607,2023-11-21,93894.16900264513
+"Cleveland, Ohio",Stockyards,1747,2023-11-21,11229.760611187856
+"Cleveland, Ohio",Riverside,797,2023-11-21,5123.136352098868
+"Cleveland, Ohio",Old Brooklyn,23894,2023-11-21,153591.24215439192
+"Cleveland, Ohio",South Broadway,10798,2023-11-21,69409.8197364662
+"Cleveland, Ohio",St. Claire-Superior,6113,2023-11-21,39294.52010085367
+"Cleveland, Ohio",Buckeye Shaker,8200,2023-11-21,52709.8093942418
+"Cleveland, Ohio",North Collinwood,9525,2023-11-21,61226.94322928697
+"Cleveland, Ohio",Mt Pleasant,1574,2023-11-21,10117.712193480073
+"Cleveland, Ohio",Lee Miles,5081,2023-11-21,32660.79774782227
+"Cleveland, Ohio",West Boulevard,4247,2023-11-21,27299.82445089572
+"Cleveland, Ohio",Jefferson,4037,2023-11-21,25949.93908836026
+"Cleveland, Ohio",Edgewater,7426,2023-11-21,47734.517629468246
+"Cleveland, Ohio",Clark Fulton,4373,2023-11-21,28109.755668416998
+"Cleveland, Ohio",Corlett,10330,2023-11-21,66401.5037856729
+"Cleveland, Ohio",Tremont,4362,2023-11-21,28039.04738752228
+"Cleveland, Ohio",Ohio City - West Side,7320,2023-11-21,47053.14692266463
+"Cleveland, Ohio",Glenville,8012,2023-11-21,51501.34059349576
+"Cleveland, Ohio",Puritas-Longmead,9146,2023-11-21,58790.72155118725
+"Cleveland, Ohio",Cudell,4734,2023-11-21,30430.27288687081
+"Colorado Springs, Colorado",Peterson Air Force Base,285,2023-11-21,1831.9872777266967
+"Colorado Springs, Colorado",West Colorado Springs,10622,2023-11-21,68278.48724215079
+"Colorado Springs, Colorado",Northwest Colorado Springs,7751,2023-11-21,49823.62592863027
+"Colorado Springs, Colorado",Falcon,171,2023-11-21,1099.192366636018
+"Colorado Springs, Colorado",Southeast Colorado Springs,38500,2023-11-21,247478.98313150113
+"Colorado Springs, Colorado",Northgate,985,2023-11-21,6331.605152844899
+"Colorado Springs, Colorado",Powers,32932,2023-11-21,211687.7369477038
+"Colorado Springs, Colorado",Briargate,41482,2023-11-21,266647.35527950467
+"Colorado Springs, Colorado",Old Colorado City,15136,2023-11-21,97294.5945111273
+"Colorado Springs, Colorado",Southwest Colorado Springs,13663,2023-11-21,87826.11289677142
+"Colorado Springs, Colorado",East Colorado Springs,908,2023-11-21,5836.647186581897
+"Colorado Springs, Colorado",Central Colorado Springs,52891,2023-11-21,339984.6986183955
+"Colorado Springs, Colorado",Flying Horse,951,2023-11-21,6113.052284624871
+"Colorado Springs, Colorado",Northeast Colorado Springs,56821,2023-11-21,365246.83897441626
+"Columbus, Ohio",Westbelt,345,2023-11-21,2217.6688098796853
+"Columbus, Ohio",Southwest,6492,2023-11-21,41730.74177895339
+"Columbus, Ohio",Brandywine,1136,2023-11-21,7302.2370087632535
+"Columbus, Ohio",Shepard,378,2023-11-21,2429.7936525638293
+"Columbus, Ohio",Seven Oaks,180,2023-11-21,1157.0445964589662
+"Columbus, Ohio",Scioto Trace,625,2023-11-21,4017.5159599269664
+"Columbus, Ohio",Brookside Woods,531,2023-11-21,3413.2815595539505
+"Columbus, Ohio",Brentwood Park,486,2023-11-21,3124.020410439209
+"Columbus, Ohio",King-Lincoln-Bronzeville,3109,2023-11-21,19984.7313910607
+"Columbus, Ohio",Worthingview,620,2023-11-21,3985.3758322475505
+"Columbus, Ohio",Hilltop,1,2023-11-21,6.428025535883146
+"Columbus, Ohio",Three Rivers,191,2023-11-21,1227.7528773536808
+"Columbus, Ohio",West London,2,2023-11-21,12.856051071766291
+"Columbus, Ohio",Central Clintonville,5000,2023-11-21,32140.12767941573
+"Columbus, Ohio",Foxboro,387,2023-11-21,2487.6458823867774
+"Columbus, Ohio",East Beechwold,1339,2023-11-21,8607.126192547534
+"Columbus, Ohio",East,8333,2023-11-21,53564.73679051426
+"Columbus, Ohio",Olde Orchard,2944,2023-11-21,18924.10717763998
+"Columbus, Ohio",Maize-Morse,7358,2023-11-21,47297.411893028184
+"Columbus, Ohio",Cross Creek,3719,2023-11-21,23905.82696794942
+"Columbus, Ohio",Linwood,2204,2023-11-21,14167.368281086454
+"Columbus, Ohio",Downtown,1532,2023-11-21,9847.735120972979
+"Columbus, Ohio",Glen Echo,759,2023-11-21,4878.871381735307
+"Columbus, Ohio",Milbrook,1239,2023-11-21,7964.323638959219
+"Columbus, Ohio",Wood Bridge Green,887,2023-11-21,5701.6586503283515
+"Columbus, Ohio",Westbrook,235,2023-11-21,1510.5860009325393
+"Columbus, Ohio",Brittany Hills,1229,2023-11-21,7900.043383600388
+"Columbus, Ohio",Madison Mills,1174,2023-11-21,7546.501979126815
+"Columbus, Ohio",Tri-Village,5981,2023-11-21,38446.0207301171
+"Columbus, Ohio",Woodland Park,1178,2023-11-21,7572.214081270346
+"Dallas, Texas",Winnetka Heights,40333,2023-11-21,259261.55393877497
+"Dallas, Texas",Coppell,5,2023-11-21,32.14012767941573
+"Dallas, Texas",Cedar Crest,52820,2023-11-21,339528.30880534777
+"Dallas, Texas",Arts District,24,2023-11-21,154.2726128611955
+"Dallas, Texas",Lake Highlands,19554,2023-11-21,125693.61132865906
+"Dallas, Texas",Southwest Dallas,8777,2023-11-21,56418.780128446386
+"Dallas, Texas",Government District,470,2023-11-21,3021.1720018650785
+"Dallas, Texas",Southeast Dallas,4738,2023-11-21,30455.984989014345
+"Dallas, Texas",Wolf Creek,16035,2023-11-21,103073.38946788624
+"Dallas, Texas",Bluffview,7945,2023-11-21,51070.66288259159
+"Dallas, Texas",South Dallas,8077,2023-11-21,51919.16225332817
+"Dallas, Texas",Oak Lawn,28001,2023-11-21,179991.14303026398
+"Dallas, Texas",Northeast Dallas,6849,2023-11-21,44025.546895263666
+"Dallas, Texas",Eagle Ford,988,2023-11-21,6350.8892294525485
+"Dallas, Texas",Lake Caroline,541,2023-11-21,3477.5618149127818
+"Dallas, Texas",Far North,55592,2023-11-21,357346.79559081583
+"Dallas, Texas",South Boulevard-Park Row Historic,3199,2023-11-21,20563.253689290184
+"Dallas, Texas",Reunion District,7,2023-11-21,44.99617875118202
+"Dallas, Texas",Buckner Terrace,9100,2023-11-21,58495.03237653663
+"Dallas, Texas",West End Historic District,102,2023-11-21,655.6586046600809
+"Dallas, Texas",City Center District,534,2023-11-21,3432.5656361615997
+"Dallas, Texas",North Dallas,3424,2023-11-21,22009.55943486389
+"Dallas, Texas",Love Field Area,548,2023-11-21,3522.5579936639638
+"Dallas, Texas",Main Street District,790,2023-11-21,5078.140173347685
+"Dallas, Texas",Farmers Market District,1278,2023-11-21,8215.01663485866
+"Denver, Colorado",Hilltop,5220,2023-11-21,33554.293297310025
+"Denver, Colorado",Bear Valley,6456,2023-11-21,41499.3328596616
+"Denver, Colorado",University Hills,5433,2023-11-21,34923.46273645313
+"Denver, Colorado",Ruby Hill,5070,2023-11-21,32590.08946692755
+"Denver, Colorado",Sloan Lake,2337,2023-11-21,15022.295677358912
+"Denver, Colorado",Speer,8710,2023-11-21,55988.1024175422
+"Denver, Colorado",Cole,1259,2023-11-21,8092.884149676882
+"Denver, Colorado",Whittier,2120,2023-11-21,13627.41413607227
+"Denver, Colorado",South Park Hill,673,2023-11-21,4326.061185649357
+"Denver, Colorado",Capitol Hill,372,2023-11-21,2391.2254993485303
+"Denver, Colorado",Cory - Merrill,3746,2023-11-21,24079.383657418264
+"Denver, Colorado",Belcaro,3487,2023-11-21,22414.52504362453
+"Denver, Colorado",University Park,5213,2023-11-21,33509.29711855884
+"Denver, Colorado",Fort Logan,3453,2023-11-21,22195.972175404506
+"Denver, Colorado",Cherry Creek,968,2023-11-21,6222.328718734885
+"Denver, Colorado",Gateway - Green Valley Ranch,4568,2023-11-21,29363.22064791421
+"Denver, Colorado",Barnum West,1345,2023-11-21,8645.694345762831
+"Denver, Colorado",Villa Park,4810,2023-11-21,30918.80282759793
+"Denver, Colorado",North Capitol Hill,4161,2023-11-21,26747.014254809772
+"Denver, Colorado",Southmoor Park,2525,2023-11-21,16230.764478104944
+"Denver, Colorado",Windsor,3524,2023-11-21,22652.361988452205
+"Denver, Colorado",Goldsmith,5545,2023-11-21,35643.401596472046
+"Denver, Colorado",Jefferson Park,1883,2023-11-21,12103.972084067964
+"Denver, Colorado",Lowry Field,4471,2023-11-21,28739.702170933553
+"Denver, Colorado",Washington Park West,3910,2023-11-21,25133.579845303102
+"Denver, Colorado",City Park,1219,2023-11-21,7835.763128241556
+"Detroit, Michigan",Marina District,177,2023-11-21,1137.7605198513168
+"Detroit, Michigan",Conant Gardens,356,2023-11-21,2288.3770907744
+"Detroit, Michigan",Warrendale,14382,2023-11-21,92447.86325707141
+"Detroit, Michigan",University District,29,2023-11-21,186.41274054061122
+"Detroit, Michigan",Grixdale,131,2023-11-21,842.0713452006921
+"Detroit, Michigan",Minock Park,55,2023-11-21,353.54140447357304
+"Detroit, Michigan",Hubbard-Richard,84,2023-11-21,539.9541450141844
+"Detroit, Michigan",Briggs,1475,2023-11-21,9481.33766542764
+"Detroit, Michigan",Art Center,1313,2023-11-21,8439.997528614571
+"Detroit, Michigan",Wayne State,1925,2023-11-21,12373.949156575056
+"Detroit, Michigan",Springwells,1325,2023-11-21,8517.133835045168
+"Detroit, Michigan",Regent Park,2440,2023-11-21,15684.382307554875
+"Detroit, Michigan",Carbon Works,367,2023-11-21,2359.0853716691145
+"Detroit, Michigan",Virginia Park,370,2023-11-21,2378.369448276764
+"Detroit, Michigan",Petosky-Otsego,4507,2023-11-21,28971.11109022534
+"Detroit, Michigan",Fishkorn,1527,2023-11-21,9815.594993293564
+"Detroit, Michigan",Oakwood Heights,365,2023-11-21,2346.2293205973483
+"Detroit, Michigan",Grandale,4436,2023-11-21,28514.721277177643
+"Detroit, Michigan",Westwood Park,40,2023-11-21,257.1210214353258
+"Detroit, Michigan",Jefferson Chalmers,2481,2023-11-21,15947.931354526085
+"Detroit, Michigan",Boynton,4347,2023-11-21,27942.627004484035
+"Detroit, Michigan",Franklin Park,5349,2023-11-21,34383.50859143895
+"Detroit, Michigan",LaSalle College Park,3068,2023-11-21,19721.182344089495
+"Detroit, Michigan",Green Acres,693,2023-11-21,4454.62169636702
+"Detroit, Michigan",Detroit Golf,235,2023-11-21,1510.5860009325393
+"Detroit, Michigan",Millenium Village,55,2023-11-21,353.54140447357304
+"Detroit, Michigan",Weatherby,1198,2023-11-21,7700.774591988009
+"Detroit, Michigan",Van Steuban,187,2023-11-21,1202.0407752101482
+"Detroit, Michigan",Old Redford,489,2023-11-21,3143.3044870468584
+"Detroit, Michigan",Mohican Regent,2678,2023-11-21,17214.252385095067
+"El Paso, Texas",San Juan,1442,2023-11-21,9269.212822743497
+"El Paso, Texas",Castner Heights,1354,2023-11-21,8703.54657558578
+"El Paso, Texas",Chamizal,1060,2023-11-21,6813.707068036135
+"El Paso, Texas",Five Points,5018,2023-11-21,32255.832139061626
+"El Paso, Texas",Central,24548,2023-11-21,157795.17085485946
+"El Paso, Texas",Ysleta Mission Valley,8733,2023-11-21,56135.947004867514
+"El Paso, Texas",Sunset Heights,1232,2023-11-21,7919.3274602080355
+"El Paso, Texas",Northeast,86560,2023-11-21,556409.8903860451
+"El Paso, Texas",Chihuahuita,287,2023-11-21,1844.8433287984628
+"El Paso, Texas",Friends of Karl Wyler,272,2023-11-21,1748.4229457602157
+"El Paso, Texas",Golden Hills,225,2023-11-21,1446.3057455737078
+"El Paso, Texas",Redd-Mulberry,31,2023-11-21,199.26879161237756
+"El Paso, Texas",East Side,2554,2023-11-21,16417.177218645553
+"El Paso, Texas",Lakeside,156,2023-11-21,1002.7719835977707
+"El Paso, Texas",Zach White,3084,2023-11-21,19824.03075266362
+"El Paso, Texas",Via Hermosa,6,2023-11-21,38.56815321529888
+"El Paso, Texas",Mountain Arroyos,918,2023-11-21,5900.9274419407275
+"El Paso, Texas",Montoya Heights,754,2023-11-21,4846.731254055892
+"El Paso, Texas",Rim Area,25,2023-11-21,160.70063839707865
+"El Paso, Texas",Borderland,977,2023-11-21,6280.180948557834
+"El Paso, Texas",Carpenter,93,2023-11-21,597.8063748371326
+"El Paso, Texas",Manhattan Heights,228,2023-11-21,1465.5898221813575
+"El Paso, Texas",South Mesa,1141,2023-11-21,7334.377136442669
+"El Paso, Texas",Album Park,8655,2023-11-21,55634.561013068625
+"El Paso, Texas",A Presidential Neighborhood,802,2023-11-21,5155.276479778284
+"El Paso, Texas",Cielo Vista,15020,2023-11-21,96548.94354896485
+"El Paso, Texas",Little Bit of Country,35,2023-11-21,224.9808937559101
+"El Paso, Texas",Buena Vista,17,2023-11-21,109.27643411001348
+"El Paso, Texas",La Colonia Escondida,55,2023-11-21,353.54140447357304
+"El Paso, Texas",Willow Bend One,65,2023-11-21,417.82165983240446
+"Fort Worth, Texas",Colonial Hills,794,2023-11-21,5103.852275491218
+"Fort Worth, Texas",Tanglewood,1464,2023-11-21,9410.629384532927
+"Fort Worth, Texas",Marine Park,132,2023-11-21,848.4993707365753
+"Fort Worth, Texas",Park Palisades,61,2023-11-21,392.1095576888719
+"Fort Worth, Texas",Stone Meadow,1157,2023-11-21,7437.2255450167995
+"Fort Worth, Texas",Lost Creek,348,2023-11-21,2236.9528864873346
+"Fort Worth, Texas",Parkview Hills,3276,2023-11-21,21058.211655553187
+"Fort Worth, Texas",Altemesa East,424,2023-11-21,2725.4828272144537
+"Fort Worth, Texas",Carter Park,951,2023-11-21,6113.052284624871
+"Fort Worth, Texas",Brittany Place,193,2023-11-21,1240.6089284254474
+"Fort Worth, Texas",Southgate,1435,2023-11-21,9224.216643992315
+"Fort Worth, Texas",Cheyenne Ridge,43,2023-11-21,276.4050980429753
+"Fort Worth, Texas",Park Glen,10203,2023-11-21,65585.14454261574
+"Fort Worth, Texas",Bellaire Park North,340,2023-11-21,2185.5286822002695
+"Fort Worth, Texas",Hollow Hills,1734,2023-11-21,11146.196279221376
+"Fort Worth, Texas",Ramey Place,67,2023-11-21,430.6777109041708
+"Fort Worth, Texas",White Lake Hills,1075,2023-11-21,6910.1274510743815
+"Fort Worth, Texas",Marine Creek,758,2023-11-21,4872.443356199425
+"Fort Worth, Texas",Caville,8,2023-11-21,51.424204287065166
+"Fort Worth, Texas",Bently Village,632,2023-11-21,4062.512138678149
+"Fort Worth, Texas",Greenway,37,2023-11-21,237.83694482767643
+"Fort Worth, Texas",Historic Southside,653,2023-11-21,4197.500674931694
+"Fort Worth, Texas",Upper West Side,794,2023-11-21,5103.852275491218
+"Fort Worth, Texas",East Lake Worth,81,2023-11-21,520.6700684065348
+"Fort Worth, Texas",South Meadows Crossing,1371,2023-11-21,8812.823009695792
+"Fort Worth, Texas",Fairway Bend,2879,2023-11-21,18506.285517807577
+"Fort Worth, Texas",South Edgewood,363,2023-11-21,2333.373269525582
+"Fort Worth, Texas",Candle Ridge West,575,2023-11-21,3696.1146831328088
+"Fresno, California",Mclane,16919,2023-11-21,108755.76404160696
+"Fresno, California",Roosevelt,88330,2023-11-21,567787.4955845582
+"Fresno, California",Hoover,39196,2023-11-21,251952.88890447578
+"Fresno, California",Woodward Park,44582,2023-11-21,286574.2344407424
+"Fresno, California",Central,11207,2023-11-21,72038.88218064242
+"Fresno, California",West,3948,2023-11-21,25377.844815666664
+"Fresno, California",Bullard,49060,2023-11-21,315358.9327904271
+"Fresno, California",Edison,1571,2023-11-21,10098.428116872423
+"Fresno, California",Fresno High Roeding,31360,2023-11-21,201582.88080529546
+"Houston, Texas",Alief,45139,2023-11-21,290154.6446642293
+"Houston, Texas",Fondren Gardens,2570,2023-11-21,16520.025627219686
+"Houston, Texas",Iah - Airport Area,3689,2023-11-21,23712.986201872925
+"Houston, Texas",Meadowbrook - Allendale,2706,2023-11-21,17394.237100099792
+"Houston, Texas",Greater Hobby Area,3191,2023-11-21,20511.82948500312
+"Houston, Texas",Greater Uptown,37524,2023-11-21,241205.23020847916
+"Houston, Texas",Eldridge - West Oaks,34767,2023-11-21,223483.16380604933
+"Houston, Texas",Denver Harbor - Port Houston,1735,2023-11-21,11152.624304757259
+"Houston, Texas",Lawndale - Wayside,1063,2023-11-21,6832.991144643784
+"Houston, Texas",Astrodome Area,12405,2023-11-21,79739.65677263042
+"Houston, Texas",Northside Village,1952,2023-11-21,12547.505846043901
+"Houston, Texas",Greater Fondren Southwest,48245,2023-11-21,310120.0919786824
+"Houston, Texas",Golfcrest - Bellfort - Reveille,35140,2023-11-21,225880.81733093376
+"Houston, Texas",Neartown - Montrose,2355,2023-11-21,15138.000137004808
+"Houston, Texas",Kashmere Gardens,808,2023-11-21,5193.844632993582
+"Houston, Texas",Harrisburg - Manchester,3115,2023-11-21,20023.299544276
+"Houston, Texas",Greater Greenspoint,16051,2023-11-21,103176.23787646038
+"Houston, Texas",Spring Branch West,11147,2023-11-21,71653.20064848944
+"Houston, Texas",Woodlake - Briarmeadow,38980,2023-11-21,250564.43538872502
+"Houston, Texas",Fourth Ward,3676,2023-11-21,23629.421869906444
+"Houston, Texas",Magnolia Park,17436,2023-11-21,112079.05324365853
+"Houston, Texas",Willow Meadows - Willowbend Area,9605,2023-11-21,61741.185272157614
+"Houston, Texas",Greenway - Upper Kirby Area,7499,2023-11-21,48203.763493587714
+"Houston, Texas",Briarforest Area,3259,2023-11-21,20948.93522144317
+"Houston, Texas",Pleasantville Area,2441,2023-11-21,15690.81033309076
+"Houston, Texas",Spring Branch Central,15680,2023-11-21,100791.44040264773
+"Houston, Texas",Hunterwood,1071,2023-11-21,6884.41534893085
+"Houston, Texas",Greater Inwood,30746,2023-11-21,197636.0731262632
+"Houston, Texas",Spring Branch North,2193,2023-11-21,14096.660000191741
+"Houston, Texas",Independence Heights,6595,2023-11-21,42392.82840914935
+"Jacksonville, Florida",Oak Haven,11,2023-11-21,70.7082808947146
+"Jacksonville, Florida",Hillcrest,3301,2023-11-21,21218.912293950263
+"Jacksonville, Florida",Arlington Manor,246,2023-11-21,1581.2942818272538
+"Jacksonville, Florida",Brown Island,34,2023-11-21,218.55286822002697
+"Jacksonville, Florida",Fairfield,132,2023-11-21,848.4993707365753
+"Jacksonville, Florida",Pecan Park,2624,2023-11-21,16867.139006157377
+"Jacksonville, Florida",Fairways Forest,2105,2023-11-21,13530.993753034021
+"Jacksonville, Florida",Arrowhead,2192,2023-11-21,14090.231974655855
+"Jacksonville, Florida",Brooklyn,63,2023-11-21,404.9656087606382
+"Jacksonville, Florida",Pumpkin Hill,575,2023-11-21,3696.1146831328088
+"Jacksonville, Florida",Larsen,480,2023-11-21,3085.4522572239102
+"Jacksonville, Florida",Holiday Hill,5933,2023-11-21,38137.47550439471
+"Jacksonville, Florida",Harborview,490,2023-11-21,3149.7325125827415
+"Jacksonville, Florida",The Cape,7006,2023-11-21,45034.746904397325
+"Jacksonville, Florida",Riverside,116,2023-11-21,745.6509621624449
+"Jacksonville, Florida",Murray Hill,9024,2023-11-21,58006.50243580951
+"Jacksonville, Florida",Windy Hill,553,2023-11-21,3554.6981213433796
+"Jacksonville, Florida",Jacksonville Naval Air Station,2079,2023-11-21,13363.86508910106
+"Jacksonville, Florida",Park Ridge,441,2023-11-21,2834.759261324468
+"Jacksonville, Florida",Deercreek,3142,2023-11-21,20196.856233744846
+"Jacksonville, Florida",Fairfax,127,2023-11-21,816.3592430571596
+"Jacksonville, Florida",Atlantic Highlands,952,2023-11-21,6119.480310160756
+"Jacksonville, Florida",Sweetwater,2473,2023-11-21,15896.507150239022
+"Jacksonville, Florida",29th and Chase,960,2023-11-21,6170.9045144478205
+"Jacksonville, Florida",Normandy Estate,4039,2023-11-21,25962.795139432026
+"Jacksonville, Florida",Woodstock,3413,2023-11-21,21938.85115396918
+"Jacksonville, Florida",Deerwood Center,364,2023-11-21,2339.801295061465
+"Jacksonville, Florida",Isle of Palms,1711,2023-11-21,10998.351691896063
+"Jacksonville, Florida",Lakewood,2673,2023-11-21,17182.11225741565
+"Kansas City, Missouri",Palestine West and Oak Park Northeast,1029,2023-11-21,6614.438276423758
+"Kansas City, Missouri",Oakwood,23,2023-11-21,147.84458732531235
+"Kansas City, Missouri",Eastern 49-63,946,2023-11-21,6080.912156945456
+"Kansas City, Missouri",Oak Meyer Gardens,1098,2023-11-21,7057.972038399695
+"Kansas City, Missouri",Vineyard Northwest,724,2023-11-21,4653.890487979397
+"Kansas City, Missouri",Oak Park Southwest,885,2023-11-21,5688.8025992565845
+"Kansas City, Missouri",Self Help Neighborhood Council,931,2023-11-21,5984.491773907209
+"Kansas City, Missouri",Palestine East,275,2023-11-21,1767.7070223678652
+"Kansas City, Missouri",Sarritt Point,939,2023-11-21,6035.915978194274
+"Kansas City, Missouri",Northest Industrial District,169,2023-11-21,1086.3363155642517
+"Kansas City, Missouri",Eastwood Hill East,1283,2023-11-21,8247.156762538076
+"Kansas City, Missouri",Ivanhoe Northeast,516,2023-11-21,3316.8611765157034
+"Kansas City, Missouri",South Hyde Park,169,2023-11-21,1086.3363155642517
+"Kansas City, Missouri",Romanelli West,725,2023-11-21,4660.318513515281
+"Kansas City, Missouri",Highview Estates,1838,2023-11-21,11814.710934953222
+"Kansas City, Missouri",Oak Park Northwest,1851,2023-11-21,11898.275266919703
+"Kansas City, Missouri",West Waldo,710,2023-11-21,4563.898130477033
+"Kansas City, Missouri",Armour Hills,716,2023-11-21,4602.466283692333
+"Kansas City, Missouri",Ward Parkway,2834,2023-11-21,18217.024368692837
+"Kansas City, Missouri",North India Mound,3636,2023-11-21,23372.300848471117
+"Kansas City, Missouri",Knoches Park,255,2023-11-21,1639.1465116502022
+"Kansas City, Missouri",Legacy East,912,2023-11-21,5862.35928872543
+"Kansas City, Missouri",Ruskin Hills,2223,2023-11-21,14289.500766268236
+"Kansas City, Missouri",North Town Fork Creek,2896,2023-11-21,18615.56195191759
+"Kansas City, Missouri",Westside South,902,2023-11-21,5798.079033366598
+"Kansas City, Missouri",Western 49-63,2293,2023-11-21,14739.462553780057
+"Kansas City, Missouri",Hickman Mills,1496,2023-11-21,9616.326201681186
+"Kansas City, Missouri",Little Blue Valley,3369,2023-11-21,21656.018030390318
+"Kansas City, Missouri",Lewis Heights,699,2023-11-21,4493.189849582319
+"Las Vegas, Nevada",Tule Springs,850,2023-11-21,5463.821705500674
+"Las Vegas, Nevada",East Las Vegas,866,2023-11-21,5566.670114074805
+"Las Vegas, Nevada",Sheep Mountain,7125,2023-11-21,45799.681943167416
+"Las Vegas, Nevada",Rancho Charleston,29962,2023-11-21,192596.5011061308
+"Las Vegas, Nevada",Downtown East,9282,2023-11-21,59664.93302406737
+"Las Vegas, Nevada",Cultural Corridor,2359,2023-11-21,15163.71223914834
+"Las Vegas, Nevada",Las Vegas Wash,52,2023-11-21,334.2573278659236
+"Las Vegas, Nevada",Lone Mountain,19428,2023-11-21,124883.68011113776
+"Las Vegas, Nevada",Centennial Hills,50590,2023-11-21,325193.81186032837
+"Las Vegas, Nevada",North Cheyenne,33075,2023-11-21,212606.94459933505
+"Las Vegas, Nevada",Michael Way,42364,2023-11-21,272316.87380215357
+"Las Vegas, Nevada",Desert Shores,6966,2023-11-21,44777.625882962
+"Las Vegas, Nevada",Downtown,4958,2023-11-21,31870.15060690864
+"Las Vegas, Nevada",Meadows Village,727,2023-11-21,4673.174564587048
+"Las Vegas, Nevada",Kyle Canyon,641,2023-11-21,4120.364368501097
+"Las Vegas, Nevada",West Las Vegas,18361,2023-11-21,118024.97686435044
+"Las Vegas, Nevada",Buffalo,13947,2023-11-21,89651.67214896224
+"Las Vegas, Nevada",Sunrise,18724,2023-11-21,120358.35013387605
+"Las Vegas, Nevada",Twin Lakes,10907,2023-11-21,70110.47451987749
+"Las Vegas, Nevada",Huntridge,9009,2023-11-21,57910.082052771264
+"Las Vegas, Nevada",The Lakes,23249,2023-11-21,149445.16568374727
+"Las Vegas, Nevada",Summerlin North,47306,2023-11-21,304084.1760004881
+"Long Beach, California",Los Cerritos Area,3802,2023-11-21,24439.35308742772
+"Long Beach, California",The Plaza,4991,2023-11-21,32082.275449592787
+"Long Beach, California",State College Area,2305,2023-11-21,14816.598860210652
+"Long Beach, California",Carroll Park,72,2023-11-21,462.8178385835865
+"Long Beach, California",Willmore City,11724,2023-11-21,75362.171382694
+"Long Beach, California",West Side,17472,2023-11-21,112310.46216295032
+"Long Beach, California",Lakewood Village,1787,2023-11-21,11486.88163262318
+"Long Beach, California",Peninsula,972,2023-11-21,6248.040820878418
+"Long Beach, California",Los Altos,5942,2023-11-21,38195.32773421765
+"Long Beach, California",Downtown,4413,2023-11-21,28366.876689852324
+"Long Beach, California",Bluff Heights,594,2023-11-21,3818.2471683145886
+"Long Beach, California",Airport Area,233,2023-11-21,1497.729949860773
+"Long Beach, California",Bixby Area,7104,2023-11-21,45664.693406913866
+"Long Beach, California",Marina Area,2849,2023-11-21,18313.444751731084
+"Long Beach, California",Dominguez,1,2023-11-21,6.428025535883146
+"Long Beach, California",California Heights,6215,2023-11-21,39950.178705513754
+"Long Beach, California",Rancho Estates,1109,2023-11-21,7128.680319294411
+"Long Beach, California",North Long Beach,51653,2023-11-21,332026.8030049722
+"Long Beach, California",Belmont Heights,11775,2023-11-21,75690.00068502405
+"Long Beach, California",East Village,4670,2023-11-21,30018.87925257429
+"Long Beach, California",Bixby Hill,171,2023-11-21,1099.192366636018
+"Long Beach, California",University Park Estates,84,2023-11-21,539.9541450141844
+"Long Beach, California",Saint Mary's,2907,2023-11-21,18686.270232812305
+"Long Beach, California",Belmont Park,795,2023-11-21,5110.280301027101
+"Long Beach, California",Zaferia,10131,2023-11-21,65122.32670403215
+"Long Beach, California",Hellman,4324,2023-11-21,27794.782417158724
+"Long Beach, California",East Side,1986,2023-11-21,12766.058714263927
+"Long Beach, California",Park Estates,43,2023-11-21,276.4050980429753
+"Long Beach, California",El Dorado Park Estates,1413,2023-11-21,9082.800082202884
+"Los Angeles, California",Highland Park,31188,2023-11-21,200477.26041312356
+"Los Angeles, California",Playa Vista,2138,2023-11-21,13743.118595718168
+"Los Angeles, California",University Hills,2228,2023-11-21,14321.640893947651
+"Los Angeles, California",North Hills,49686,2023-11-21,319382.87677589
+"Los Angeles, California",Mar Vista,13749,2023-11-21,88378.92309285737
+"Los Angeles, California",Valley Glen,28329,2023-11-21,182099.53540603365
+"Los Angeles, California",Pacoima,59912,2023-11-21,385115.86590583104
+"Los Angeles, California",Mid City,33110,2023-11-21,212831.92549309097
+"Los Angeles, California",Sun Valley,53645,2023-11-21,344831.42987245135
+"Los Angeles, California",Mission Hills,17844,2023-11-21,114701.68766229888
+"Los Angeles, California",Venice,35035,2023-11-21,225205.87464966602
+"Los Angeles, California",Glendale,1,2023-11-21,6.428025535883146
+"Los Angeles, California",Winnetka,44331,2023-11-21,284960.80003123573
+"Los Angeles, California",Reseda,32014,2023-11-21,205786.80950576306
+"Los Angeles, California",Mount Washington,4480,2023-11-21,28797.554400756493
+"Los Angeles, California",Encino,21279,2023-11-21,136781.9553780575
+"Los Angeles, California",Tarzana,36098,2023-11-21,232038.86579430985
+"Los Angeles, California",Westwood,25666,2023-11-21,164981.70340397683
+"Los Angeles, California",Canoga Park,17020,2023-11-21,109404.99462073114
+"Los Angeles, California",Southeast Los Angeles,115625,2023-11-21,743240.4525864888
+"Memphis, Tennessee",Hickory Ridge-South Riverdale,14730,2023-11-21,94684.81614355874
+"Memphis, Tennessee",Shelby Forest-Frayser,2756,2023-11-21,17715.63837689395
+"Memphis, Tennessee",Raleigh,7279,2023-11-21,46789.59787569342
+"Memphis, Tennessee",White Haven-Coro Lake,11207,2023-11-21,72038.88218064242
+"Memphis, Tennessee",Berclair-Highland Heights,5450,2023-11-21,35032.739170563145
+"Memphis, Tennessee",Midtown,8978,2023-11-21,57710.81326115888
+"Memphis, Tennessee",Cordova-Appling,44078,2023-11-21,283334.50957065733
+"Memphis, Tennessee",East Memphis-Colonial-Yorkshire,19393,2023-11-21,124658.69921738184
+"Memphis, Tennessee",River Oaks-Kirby-Balmoral,13881,2023-11-21,89227.42246359395
+"Memphis, Tennessee",Eads-Fisherville,3321,2023-11-21,21347.472804667927
+"Memphis, Tennessee",Parkway Village-Oakhaven,19097,2023-11-21,122756.00365876044
+"Memphis, Tennessee",Windyke-Southwind,3,2023-11-21,19.28407660764944
+"Memphis, Tennessee",Downtown,9631,2023-11-21,61908.31393609058
+"Mesa, Arizona",Northpointe,250,2023-11-21,1607.0063839707864
+"Mesa, Arizona",Casa Mia,32,2023-11-21,205.69681714826066
+"Mesa, Arizona",Fiesta Park Village,425,2023-11-21,2731.910852750337
+"Mesa, Arizona",Northridge Manor,163,2023-11-21,1047.768162348953
+"Mesa, Arizona",Moondance,29,2023-11-21,186.41274054061122
+"Mesa, Arizona",Stoneybrook,77,2023-11-21,494.9579662630022
+"Mesa, Arizona",Augusta Ranch,689,2023-11-21,4428.909594223487
+"Mesa, Arizona",Stonecrest,262,2023-11-21,1684.1426904013842
+"Mesa, Arizona",Mira Mesa,157,2023-11-21,1009.2000091336539
+"Mesa, Arizona",Rancho del Mar,414,2023-11-21,2661.2025718556224
+"Mesa, Arizona",Alta Mesa,3096,2023-11-21,19901.16705909422
+"Mesa, Arizona",Meridian Pointe,1005,2023-11-21,6460.165663562561
+"Mesa, Arizona",Lehi,64,2023-11-21,411.3936342965213
+"Mesa, Arizona",Village Park Four,395,2023-11-21,2539.0700866738425
+"Mesa, Arizona",Villages of Eastridge,1799,2023-11-21,11564.017939053781
+"Mesa, Arizona",Sierra Heights,28,2023-11-21,179.9847150047281
+"Mesa, Arizona",Signal Butte Manor,687,2023-11-21,4416.053543151722
+"Mesa, Arizona",Sundance Homes,464,2023-11-21,2982.6038486497796
+"Mesa, Arizona",Garden Hills,20,2023-11-21,128.5605107176629
+"Mesa, Arizona",Reed Park,3223,2023-11-21,20717.526302151382
+"Mesa, Arizona",Sunland Springs Village,1998,2023-11-21,12843.195020694526
+"Mesa, Arizona",Hohokam Village,771,2023-11-21,4956.007688165905
+"Mesa, Arizona",Pacific Palms,65,2023-11-21,417.82165983240446
+"Mesa, Arizona",Summit,262,2023-11-21,1684.1426904013842
+"Mesa, Arizona",Boulder Mountain,346,2023-11-21,2224.096835415569
+"Mesa, Arizona",Suntrails III,170,2023-11-21,1092.7643411001347
+"Mesa, Arizona",Marlborough Mesa,905,2023-11-21,5817.363109974247
+"Mesa, Arizona",El Mirage,108,2023-11-21,694.2267578753798
+"Mesa, Arizona",Powell Estates,714,2023-11-21,4589.610232620566
+"Miami, Florida",Coral Way,29325,2023-11-21,188501.84883977324
+"Miami, Florida",Upper Eastside,471,2023-11-21,3027.600027400962
+"Miami, Florida",Alameda - West Flagler,11585,2023-11-21,74468.67583320625
+"Miami, Florida",Overtown,7136,2023-11-21,45870.39022406213
+"Miami, Florida",Allapattah,37214,2023-11-21,239212.54229235539
+"Miami, Florida",Little Havana,27339,2023-11-21,175735.79012550935
+"Miami, Florida",Fair Isle,323,2023-11-21,2076.252248090256
+"Miami, Florida",Biscayne Island,52,2023-11-21,334.2573278659236
+"Miami, Florida",Flagami,23371,2023-11-21,150229.384799125
+"Miami, Florida",North-East Coconut Grove,5654,2023-11-21,36344.05637988331
+"Miami, Florida",Shenandoah,2872,2023-11-21,18461.289339056395
+"Miami, Florida",Wynwood - Edgewater,5329,2023-11-21,34254.94808072128
+"Miami, Florida",Brickell,10479,2023-11-21,67359.27959051948
+"Miami, Florida",Little Haiti,568,2023-11-21,3651.1185043816267
+"Miami, Florida",San Marco Island,42,2023-11-21,269.9770725070922
+"Miami, Florida",South-West Coconut Grove,1717,2023-11-21,11036.91984511136
+"Miami, Florida",Downtown,4507,2023-11-21,28971.11109022534
+"Miami, Florida",Liberty City,2724,2023-11-21,17509.94155974569
+"Milwaukee, Wisconsin",Holler Park,472,2023-11-21,3034.0280529368447
+"Milwaukee, Wisconsin",Wedgewood,913,2023-11-21,5868.7873142613125
+"Milwaukee, Wisconsin",Menomonee River Valley,71,2023-11-21,456.38981304770334
+"Milwaukee, Wisconsin",Haymarket,123,2023-11-21,790.6471409136269
+"Milwaukee, Wisconsin",Murray Hill,2931,2023-11-21,18840.5428456735
+"Milwaukee, Wisconsin",Avenues West,792,2023-11-21,5090.996224419452
+"Milwaukee, Wisconsin",Washington Park,2624,2023-11-21,16867.139006157377
+"Milwaukee, Wisconsin",Pheasant Run,981,2023-11-21,6305.8930507013665
+"Milwaukee, Wisconsin",Buchel Park,26,2023-11-21,167.1286639329618
+"Milwaukee, Wisconsin",Lincoln Village,5719,2023-11-21,36761.87803971571
+"Milwaukee, Wisconsin",Hampton Heights,911,2023-11-21,5855.9312631895455
+"Milwaukee, Wisconsin",St. Amelian's,500,2023-11-21,3214.0127679415727
+"Milwaukee, Wisconsin",Cannon Park,830,2023-11-21,5335.261194783011
+"Milwaukee, Wisconsin",White Manor,1138,2023-11-21,7315.09305983502
+"Milwaukee, Wisconsin",Brewer's Hill,1325,2023-11-21,8517.133835045168
+"Milwaukee, Wisconsin",Bluemound Heights,1137,2023-11-21,7308.665034299137
+"Milwaukee, Wisconsin",Hawthorne Glen,346,2023-11-21,2224.096835415569
+"Milwaukee, Wisconsin",Granville Station,558,2023-11-21,3586.8382490227955
+"Milwaukee, Wisconsin",Baran Park,85,2023-11-21,546.3821705500674
+"Milwaukee, Wisconsin",Sherman Park,748,2023-11-21,4808.163100840593
+"Milwaukee, Wisconsin",Fernwood,459,2023-11-21,2950.4637209703637
+"Milwaukee, Wisconsin",Havenwoods,113,2023-11-21,726.3668855547954
+"Milwaukee, Wisconsin",Dretzka Park,182,2023-11-21,1169.9006475307326
+"Milwaukee, Wisconsin",Muskego Way,2228,2023-11-21,14321.640893947651
+"Milwaukee, Wisconsin",Timmerman Airport,116,2023-11-21,745.6509621624449
+"Milwaukee, Wisconsin",Copernicus Park,234,2023-11-21,1504.1579753966562
+"Milwaukee, Wisconsin",Ridgeview,276,2023-11-21,1774.1350479037487
+"Milwaukee, Wisconsin",Grover Heights,26,2023-11-21,167.1286639329618
+"Milwaukee, Wisconsin",Mount Olivet,189,2023-11-21,1214.8968262819146
+"Minneapolis, Minnesota",Willard Hay,3533,2023-11-21,22710.214218275156
+"Minneapolis, Minnesota",Harrison,3140,2023-11-21,20184.000182673077
+"Minneapolis, Minnesota",Longfellow,549,2023-11-21,3528.9860191998473
+"Minneapolis, Minnesota",East Harriet,1433,2023-11-21,9211.360592920548
+"Minneapolis, Minnesota",Standish,6327,2023-11-21,40670.117565532666
+"Minneapolis, Minnesota",Whittier,11847,2023-11-21,76152.81852360764
+"Minneapolis, Minnesota",Cooper,2863,2023-11-21,18403.43710923345
+"Minneapolis, Minnesota",East Calhoun,633,2023-11-21,4068.9401642140315
+"Minneapolis, Minnesota",Keewaydin,529,2023-11-21,3400.4255084821843
+"Minneapolis, Minnesota",Columbia Park,1045,2023-11-21,6717.286684997887
+"Minneapolis, Minnesota",St Anthony East,1894,2023-11-21,12174.68036496268
+"Minneapolis, Minnesota",Beltrami,694,2023-11-21,4461.049721902903
+"Minneapolis, Minnesota",Waite Park,2997,2023-11-21,19264.79253104179
+"Minneapolis, Minnesota",Southeast Como,1754,2023-11-21,11274.75678993904
+"Minneapolis, Minnesota",Loring Park,6058,2023-11-21,38940.978696380094
+"Minneapolis, Minnesota",Lowry Hill East,1150,2023-11-21,7392.2293662656175
+"Minneapolis, Minnesota",Ericsson,1033,2023-11-21,6640.150378567289
+"Minneapolis, Minnesota",Cedar-Riverside,3456,2023-11-21,22215.256252012154
+"Minneapolis, Minnesota",Hale,1612,2023-11-21,10361.97716384363
+"Minneapolis, Minnesota",Victory,1110,2023-11-21,7135.108344830292
+"Minneapolis, Minnesota",Jordan,886,2023-11-21,5695.230624792467
+"Minneapolis, Minnesota",Corcoran,2407,2023-11-21,15472.257464870732
+"Minneapolis, Minnesota",Bryant,817,2023-11-21,5251.696862816531
+"Minneapolis, Minnesota",Lind-Bohanon,2655,2023-11-21,17066.407797769753
+"Minneapolis, Minnesota",Prospect Park,1151,2023-11-21,7398.657391801501
+"Minneapolis, Minnesota",Marshall Terrace,664,2023-11-21,4268.208955826409
+"Minneapolis, Minnesota",Windom,2652,2023-11-21,17047.123721162105
+"Minneapolis, Minnesota",Cedar-Isles-Dean,151,2023-11-21,970.631855918355
+"Minneapolis, Minnesota",Northrup,1470,2023-11-21,9449.197537748225
+"New York, New York",Auburndale,3563,2023-11-21,22903.054984351653
+"New York, New York",Rikers Island,702,2023-11-21,4512.4739261899695
+"New York, New York",Turtle Bay,19636,2023-11-21,126220.70942260146
+"New York, New York",College Point,8422,2023-11-21,54136.83106320786
+"New York, New York",Rosebank,9864,2023-11-21,63406.04388595135
+"New York, New York",Oakwood,3280,2023-11-21,21083.923757696717
+"New York, New York",St. Albans,23440,2023-11-21,150672.91856110093
+"New York, New York",Eltingville,18005,2023-11-21,115736.59977357605
+"New York, New York",Rosedale,15802,2023-11-21,101575.65951802548
+"New York, New York",Fordham,22921,2023-11-21,147336.7733079776
+"New York, New York",Westerleigh,2136,2023-11-21,13730.262544646399
+"New York, New York",Jamaica Hills,4425,2023-11-21,28444.01299628292
+"New York, New York",Woodlawn,6837,2023-11-21,43948.41058883307
+"New York, New York",Tremont,45474,2023-11-21,292308.03321875015
+"New York, New York",Stuyvesant Town,15959,2023-11-21,102584.85952715912
+"New York, New York",Rossville,1342,2023-11-21,8626.410269155182
+"New York, New York",Jamaica Estates,9681,2023-11-21,62229.71521288474
+"New York, New York",Midwood,58872,2023-11-21,378430.7193485126
+"New York, New York",Hillcrest,2519,2023-11-21,16192.196324889645
+"New York, New York",Chelsea-Travis,196,2023-11-21,1259.8930050330966
+"New York, New York",Kew Gardens Hills,30943,2023-11-21,198902.3941568322
+"New York, New York",South Beach,4429,2023-11-21,28469.725098426454
+"New York, New York",High Bridge,32288,2023-11-21,207548.08850259503
+"New York, New York",Stapleton,1607,2023-11-21,10329.837036164216
+"New York, New York",Pelham Bay Park,969,2023-11-21,6228.756744270769
+"New York, New York",Murray Hill,2255,2023-11-21,14495.197583416493
+"New York, New York",Bedford Park,8385,2023-11-21,53898.99411838018
+"New York, New York",University Heights,8611,2023-11-21,55351.72788948977
+"New York, New York",Mill Basin,9273,2023-11-21,59607.080794244415
+"New York, New York",Fort Greene,22345,2023-11-21,143634.23059930888
+"Oakland, California",South Stonehurst,434,2023-11-21,2789.7630825732854
+"Oakland, California",Highland,899,2023-11-21,5778.7949567589485
+"Oakland, California",Oak Tree,4317,2023-11-21,27749.78623840754
+"Oakland, California",Las Palmas,909,2023-11-21,5843.075212117779
+"Oakland, California",Northgate,1490,2023-11-21,9577.758048465887
+"Oakland, California",Longfellow,2690,2023-11-21,17291.388691525663
+"Oakland, California",Lockwood Tevis,992,2023-11-21,6376.601331596082
+"Oakland, California",Adams Point,3844,2023-11-21,24709.330159934812
+"Oakland, California",Golden Gate,565,2023-11-21,3631.8344277739775
+"Oakland, California",Clinton,5750,2023-11-21,36961.146831328086
+"Oakland, California",Jefferson,1869,2023-11-21,12013.979726565602
+"Oakland, California",Oakland Army Base,25,2023-11-21,160.70063839707865
+"Oakland, California",Hawthorne,1854,2023-11-21,11917.559343527353
+"Oakland, California",Joaquin Miller Park,117,2023-11-21,752.0789876983281
+"Oakland, California",Upper Rockridge,3346,2023-11-21,21508.173443065007
+"Oakland, California",Paradise Park,2230,2023-11-21,14334.496945019415
+"Oakland, California",Durant Manor,1152,2023-11-21,7405.085417337384
+"Oakland, California",Oak Center,382,2023-11-21,2455.5057547073616
+"Oakland, California",Ivy Hill,3263,2023-11-21,20974.64732358671
+"Oakland, California",Montclair Business,69,2023-11-21,443.5337619759372
+"Oakland, California",Oakland Airport,30,2023-11-21,192.8407660764944
+"Oakland, California",Woodminster,143,2023-11-21,919.2076516312901
+"Oakland, California",Hiller Highlands,429,2023-11-21,2757.6229548938695
+"Oakland, California",Piedmont Avenue,4034,2023-11-21,25930.65501175261
+"Oakland, California",Upper Dimond,3451,2023-11-21,22183.116124332737
+"Oakland, California",Bushrod,5628,2023-11-21,36176.92771595035
+"Oakland, California",Fairfax,1713,2023-11-21,11011.207742967828
+"Oakland, California",Dimond,272,2023-11-21,1748.4229457602157
+"Oakland, California",Havenscourt,2081,2023-11-21,13376.721140172827
+"Oakland, California",Skyline - Hillcrest Estates,315,2023-11-21,2024.828043803191
+"Oklahoma City, Oklahoma",Capitol Hill,1736,2023-11-21,11159.052330293141
+"Oklahoma City, Oklahoma",Classen Ten Penn,119,2023-11-21,764.9350387700945
+"Oklahoma City, Oklahoma",Meridian Avenue Corridor,21451,2023-11-21,137887.57577022936
+"Oklahoma City, Oklahoma",I-240 Corridor,27580,2023-11-21,177284.94427965715
+"Oklahoma City, Oklahoma",Crown Heights,1765,2023-11-21,11345.465070833752
+"Oklahoma City, Oklahoma",Flatiron District,17,2023-11-21,109.27643411001348
+"Oklahoma City, Oklahoma",Heritage Hills,1301,2023-11-21,8362.861222183972
+"Oklahoma City, Oklahoma",Gatewood UCD,298,2023-11-21,1915.5516096931774
+"Oklahoma City, Oklahoma",Mesta Park,1341,2023-11-21,8619.982243619299
+"Oklahoma City, Oklahoma",Edgemere Heights,290,2023-11-21,1864.1274054061123
+"Oklahoma City, Oklahoma",Cottage District,371,2023-11-21,2384.7974738126477
+"Oklahoma City, Oklahoma",Northwest 39th Street Enclave,2572,2023-11-21,16532.88167829145
+"Oklahoma City, Oklahoma",Paseo Arts District,516,2023-11-21,3316.8611765157034
+"Oklahoma City, Oklahoma",Belle Isle,1748,2023-11-21,11236.188636723738
+"Oklahoma City, Oklahoma",Deep Deuce,312,2023-11-21,2005.5439671955414
+"Oklahoma City, Oklahoma",Film Row,682,2023-11-21,4383.913415472306
+"Oklahoma City, Oklahoma",Automobile Alley,165,2023-11-21,1060.6242134207191
+"Oklahoma City, Oklahoma",Arts District,623,2023-11-21,4004.6599088552
+"Oklahoma City, Oklahoma",Stockyards City,2009,2023-11-21,12913.903301589242
+"Oklahoma City, Oklahoma",Asia District,1539,2023-11-21,9892.731299724162
+"Oklahoma City, Oklahoma",Adventure District,1818,2023-11-21,11686.150424235559
+"Oklahoma City, Oklahoma",Lincoln Terrace,420,2023-11-21,2699.7707250709213
+"Oklahoma City, Oklahoma",Central Business District,100,2023-11-21,642.8025535883146
+"Oklahoma City, Oklahoma",Bricktown,1,2023-11-21,6.428025535883146
+"Oklahoma City, Oklahoma",Capitol Campus,765,2023-11-21,4917.439534950607
+"Oklahoma City, Oklahoma",Mayfair,2292,2023-11-21,14733.03452824417
+"Omaha, Nebraska",Elkhorn,17472,2023-11-21,112310.46216295032
+"Philadelphia, Pennsylvania",Wissahickon Hills,166,2023-11-21,1067.0522389566022
+"Philadelphia, Pennsylvania",University City,10304,2023-11-21,66234.37512173994
+"Philadelphia, Pennsylvania",Wissinoming,10848,2023-11-21,69731.22101326036
+"Philadelphia, Pennsylvania",Logan,13406,2023-11-21,86174.11033404946
+"Philadelphia, Pennsylvania",Dickinson Narrows,124,2023-11-21,797.0751664495102
+"Philadelphia, Pennsylvania",Germantown Morton,5527,2023-11-21,35527.697136826144
+"Philadelphia, Pennsylvania",Ludlow,1920,2023-11-21,12341.809028895641
+"Philadelphia, Pennsylvania",Grays Ferry,8385,2023-11-21,53898.99411838018
+"Philadelphia, Pennsylvania",North Central,10759,2023-11-21,69159.12674056676
+"Philadelphia, Pennsylvania",Franklin Mills,0,2023-11-21,0.0
+"Philadelphia, Pennsylvania",Mantua,4829,2023-11-21,31040.93531277971
+"Philadelphia, Pennsylvania",Andorra,399,2023-11-21,2564.7821888173753
+"Philadelphia, Pennsylvania",Upper Roxborough,6186,2023-11-21,39763.76596497314
+"Philadelphia, Pennsylvania",East Passyunk,5691,2023-11-21,36581.89332471099
+"Philadelphia, Pennsylvania",Lawndale,10235,2023-11-21,65790.841359764
+"Philadelphia, Pennsylvania",Bustleton,24048,2023-11-21,154581.1580869179
+"Philadelphia, Pennsylvania",Callow Hill,1612,2023-11-21,10361.97716384363
+"Philadelphia, Pennsylvania",Lower Moyamensing,15254,2023-11-21,98053.10152436151
+"Philadelphia, Pennsylvania",West Poplar,2006,2023-11-21,12894.61922498159
+"Philadelphia, Pennsylvania",Spring Garden,798,2023-11-21,5129.564377634751
+"Philadelphia, Pennsylvania",Dunlap,2202,2023-11-21,14154.512230014687
+"Philadelphia, Pennsylvania",West Torresdale,155,2023-11-21,996.3439580618876
+"Philadelphia, Pennsylvania",Woodland Terrace,196,2023-11-21,1259.8930050330966
+"Philadelphia, Pennsylvania",Roxborough Park,1046,2023-11-21,6723.714710533772
+"Philadelphia, Pennsylvania",Society Hill,5286,2023-11-21,33978.542982678315
+"Philadelphia, Pennsylvania",Mount Airy West,6555,2023-11-21,42135.70738771402
+"Philadelphia, Pennsylvania",Garden Court,1715,2023-11-21,11024.063794039595
+"Philadelphia, Pennsylvania",West Park,41,2023-11-21,263.549046971209
+"Philadelphia, Pennsylvania",Hawthorne,130,2023-11-21,835.6433196648089
+"Phoenix, Arizona",Rio Vista,1120,2023-11-21,7199.388600189123
+"Phoenix, Arizona",Central City,45395,2023-11-21,291800.2192014154
+"Phoenix, Arizona",Camelback East,625,2023-11-21,4017.5159599269664
+"Phoenix, Arizona",Encanto,18183,2023-11-21,116880.78831896324
+"Phoenix, Arizona",Estrella,32294,2023-11-21,207586.65665581034
+"Phoenix, Arizona",Alhambra,69142,2023-11-21,444446.5416020325
+"Phoenix, Arizona",Laveen,44172,2023-11-21,283938.74397103034
+"Phoenix, Arizona",Maryvale,70805,2023-11-21,455136.34806820616
+"Phoenix, Arizona",Ahwatukee Foothills,26815,2023-11-21,172367.50474470656
+"Phoenix, Arizona",Paradise Valley,123108,2023-11-21,791341.3676715023
+"Phoenix, Arizona",Deer Valley,74941,2023-11-21,481722.6616846189
+"Phoenix, Arizona",North Gateway,3474,2023-11-21,22330.96071165805
+"Phoenix, Arizona",South Mountain,50363,2023-11-21,323734.65006368293
+"Phoenix, Arizona",Desert View,6036,2023-11-21,38799.56213459068
+"Phoenix, Arizona",North Mountain,28457,2023-11-21,182922.3226746267
+"Portland, Oregon",Portsmouth,4878,2023-11-21,31355.908564037985
+"Portland, Oregon",Portland International Airport,20,2023-11-21,128.5605107176629
+"Portland, Oregon",Reed,4024,2023-11-21,25866.37475639378
+"Portland, Oregon",Eliot,1288,2023-11-21,8279.296890217493
+"Portland, Oregon",Kerns,3100,2023-11-21,19926.879161237754
+"Portland, Oregon",Marshall Park,716,2023-11-21,4602.466283692333
+"Portland, Oregon",Markham,29,2023-11-21,186.41274054061122
+"Portland, Oregon",Hazelwood,15508,2023-11-21,99685.82001047583
+"Portland, Oregon",Pleasant Valley,2136,2023-11-21,13730.262544646399
+"Portland, Oregon",Madison South,6852,2023-11-21,44044.83097187131
+"Portland, Oregon",Healy Heights,30,2023-11-21,192.8407660764944
+"Portland, Oregon",Parkrose Heights,2537,2023-11-21,16307.90078453554
+"Portland, Oregon",Woodland Park,15,2023-11-21,96.4203830382472
+"Portland, Oregon",Ashcreek,5463,2023-11-21,35116.30350252963
+"Portland, Oregon",Powellhurst Gilbert,12614,2023-11-21,81083.11410963
+"Portland, Oregon",Bridlemile,2600,2023-11-21,16712.86639329618
+"Portland, Oregon",East Columbia,117,2023-11-21,752.0789876983281
+"Portland, Oregon",Richmond,8671,2023-11-21,55737.409421642755
+"Portland, Oregon",Eastmoreland,851,2023-11-21,5470.249731036557
+"Portland, Oregon",Glenfair,3208,2023-11-21,20621.105919113135
+"Portland, Oregon",Brentwood-Darlington,2648,2023-11-21,17021.411619018574
+"Portland, Oregon",Corbett-Terwilliger-Lair Hill,1264,2023-11-21,8125.024277356298
+"Portland, Oregon",Forest Highlands,4,2023-11-21,25.712102143532583
+"Portland, Oregon",Crestwood,684,2023-11-21,4396.769466544072
+"Portland, Oregon",Overlook,3437,2023-11-21,22093.123766830373
+"Portland, Oregon",Boise,216,2023-11-21,1388.4535157507596
+"Portland, Oregon",Southwest Hills,4536,2023-11-21,29157.523830765957
+"Portland, Oregon",Alameda,2349,2023-11-21,15099.43198378951
+"Raleigh, North Carolina",Southeast Raleigh,11146,2023-11-21,71646.77262295355
+"Raleigh, North Carolina",Southwest Raleigh,8342,2023-11-21,53622.58902033721
+"Raleigh, North Carolina",Northeast Raleigh,27468,2023-11-21,176565.00541963824
+"Raleigh, North Carolina",Central,3656,2023-11-21,23500.86135918878
+"Raleigh, North Carolina",Five Points,1345,2023-11-21,8645.694345762831
+"Raleigh, North Carolina",Glenwood,1386,2023-11-21,8909.24339273404
+"Raleigh, North Carolina",Six Forks,7893,2023-11-21,50736.40555472567
+"Raleigh, North Carolina",South Central,7075,2023-11-21,45478.280666373255
+"Raleigh, North Carolina",North Central,1776,2023-11-21,11416.173351728467
+"Raleigh, North Carolina",East Raleigh,2994,2023-11-21,19245.508454434137
+"Raleigh, North Carolina",South Raleigh,10563,2023-11-21,67899.23373553366
+"Raleigh, North Carolina",Falls of Neuse,3804,2023-11-21,24452.209138499486
+"Raleigh, North Carolina",Hillsborough,315,2023-11-21,2024.828043803191
+"Raleigh, North Carolina",Northwest Raleigh,11193,2023-11-21,71948.88982314005
+"Raleigh, North Carolina",North Raleigh,56462,2023-11-21,362939.17780703417
+"Raleigh, North Carolina",Wade,6538,2023-11-21,42026.43095360401
+"Raleigh, North Carolina",West Raleigh,890,2023-11-21,5720.942726935999
+"Raleigh, North Carolina",Mordecai,687,2023-11-21,4416.053543151722
+"Sacramento, California",Richardson Village,263,2023-11-21,1690.5707159372673
+"Sacramento, California",Creekside,2285,2023-11-21,14688.038349492988
+"Sacramento, California",Westlake,65,2023-11-21,417.82165983240446
+"Sacramento, California",Gardenland,397,2023-11-21,2551.926137745609
+"Sacramento, California",Valleyview Acres,87,2023-11-21,559.2382216218336
+"Sacramento, California",Colonial Village,637,2023-11-21,4094.6522663575647
+"Sacramento, California",CSUS,983,2023-11-21,6318.749101773133
+"Sacramento, California",Boulevard Park,688,2023-11-21,4422.4815686876045
+"Sacramento, California",Del Paso Heights,433,2023-11-21,2783.3350570374023
+"Sacramento, California",Tahoe Park South,490,2023-11-21,3149.7325125827415
+"Sacramento, California",Golf Course Terrace,3109,2023-11-21,19984.7313910607
+"Sacramento, California",Pell-Main Industrial Park,686,2023-11-21,4409.625517615838
+"Sacramento, California",Southeast Village,4425,2023-11-21,28444.01299628292
+"Sacramento, California",Wills Acres,749,2023-11-21,4814.5911263764765
+"Sacramento, California",Old North Sacramento,3003,2023-11-21,19303.36068425709
+"Sacramento, California",Gateway West,1647,2023-11-21,10586.95805759954
+"Sacramento, California",Midtown - Winn Park Capital Avenue,1864,2023-11-21,11981.839598886185
+"Sacramento, California",College-Glen,7694,2023-11-21,49457.22847308493
+"Sacramento, California",Natomas Crossing,41,2023-11-21,263.549046971209
+"Sacramento, California",Sierra Oaks,141,2023-11-21,906.3516005595236
+"Sacramento, California",Glenwood Meadows,913,2023-11-21,5868.7873142613125
+"Sacramento, California",South American River Industrial Park,26,2023-11-21,167.1286639329618
+"Sacramento, California",Mansion Flats,316,2023-11-21,2031.2560693390744
+"Sacramento, California",Woodbine,1996,2023-11-21,12830.338969622759
+"Sacramento, California",North City Farms,1420,2023-11-21,9127.796260954066
+"Sacramento, California",Noralto,3013,2023-11-21,19367.64093961592
+"Sacramento, California",Village 2,3995,2023-11-21,25679.96201585317
+"Sacramento, California",Cal Expo,23,2023-11-21,147.84458732531235
+"Sacramento, California",Village 12,923,2023-11-21,5933.067569620143
+"San Antonio, Texas",Bluffview at Camino Real,350,2023-11-21,2249.808937559101
+"San Antonio, Texas",People Active in Community Effort,12779,2023-11-21,82143.73832305073
+"San Antonio, Texas",Maverick Creek,155,2023-11-21,996.3439580618876
+"San Antonio, Texas",The Champions Estates-Stone Oak,49,2023-11-21,314.97325125827416
+"San Antonio, Texas",Hunters Chase II,992,2023-11-21,6376.601331596082
+"San Antonio, Texas",Beacon Hill,3086,2023-11-21,19836.88680373539
+"San Antonio, Texas",Community Workers Council,2340,2023-11-21,15041.579753966562
+"San Antonio, Texas",High Country,930,2023-11-21,5978.063748371325
+"San Antonio, Texas",Village in the Woods,196,2023-11-21,1259.8930050330966
+"San Antonio, Texas",Stone Valley,149,2023-11-21,957.7758048465887
+"San Antonio, Texas",Sun Gate,282,2023-11-21,1812.7032011190472
+"San Antonio, Texas",Artesia Community Guild,1241,2023-11-21,7977.179690030984
+"San Antonio, Texas",Village at Rustic Oaks,13,2023-11-21,83.5643319664809
+"San Antonio, Texas",Jefferson Heights,2526,2023-11-21,16237.192503640827
+"San Antonio, Texas",Stone Wood,1007,2023-11-21,6473.021714634328
+"San Antonio, Texas",Fieldstone,31,2023-11-21,199.26879161237756
+"San Antonio, Texas",Regency Meadow,9,2023-11-21,57.85222982294831
+"San Antonio, Texas",Shavano Garden Homes,326,2023-11-21,2095.536324697906
+"San Antonio, Texas",Towne Lake Garden,96,2023-11-21,617.090451444782
+"San Antonio, Texas",Promontory Pointe-Heights,1384,2023-11-21,8896.387341662276
+"San Antonio, Texas",King William,498,2023-11-21,3201.1567168698066
+"San Antonio, Texas",Forest Oak,24,2023-11-21,154.2726128611955
+"San Antonio, Texas",Summit-Stone Oak,646,2023-11-21,4152.504496180512
+"San Antonio, Texas",Perrin Park,131,2023-11-21,842.0713452006921
+"San Antonio, Texas",Third World,2479,2023-11-21,15935.07530345432
+"San Antonio, Texas",Roosevelt Park,586,2023-11-21,3766.8229640275235
+"San Antonio, Texas",Nevada Street,477,2023-11-21,3066.1681806162605
+"San Antonio, Texas",Owners Association of Lago Vista-South Southwest,18,2023-11-21,115.70445964589662
+"San Antonio, Texas",Mission Ridge,290,2023-11-21,1864.1274054061123
+"San Antonio, Texas",Mahncke Park,474,2023-11-21,3046.8841040086113
+"San Diego, California",Pacific Beach,17274,2023-11-21,111037.71310684549
+"San Diego, California",Burlingame,209,2023-11-21,1343.4573369995776
+"San Diego, California",Clairemont Mesa East,14815,2023-11-21,95231.19831410881
+"San Diego, California",Grantville,5563,2023-11-21,35759.10605611794
+"San Diego, California",Lake Murray,13540,2023-11-21,87035.46575585779
+"San Diego, California",Park West,1710,2023-11-21,10991.923666360179
+"San Diego, California",Miramar Ranch North,160,2023-11-21,1028.4840857413033
+"San Diego, California",Fairmount Park,402,2023-11-21,2584.0662654250245
+"San Diego, California",Otay Mesa West,27327,2023-11-21,175658.65381907873
+"San Diego, California",La Playa,2433,2023-11-21,15639.386128803697
+"San Diego, California",Sherman Heights,2004,2023-11-21,12881.763173909825
+"San Diego, California",Sabre Springs,6759,2023-11-21,43447.024597034186
+"San Diego, California",Mountain View,10309,2023-11-21,66266.51524941935
+"San Diego, California",Azalea-Hollywood Park,652,2023-11-21,4191.072649395812
+"San Diego, California",Marina,5153,2023-11-21,33123.61558640585
+"San Diego, California",Black Mountain Ranch,2838,2023-11-21,18242.73647083637
+"San Diego, California",Golden Hill,3821,2023-11-21,24561.4855726095
+"San Diego, California",Egger Highlands,4516,2023-11-21,29028.963320048293
+"San Diego, California",Grant Hill,213,2023-11-21,1369.1694391431104
+"San Diego, California",Carmel Mountain,1880,2023-11-21,12084.688007460314
+"San Diego, California",San Carlos,9090,2023-11-21,58430.75212117779
+"San Diego, California",Teralta East,545,2023-11-21,3503.2739170563145
+"San Diego, California",Mission Beach,2865,2023-11-21,18416.293160305213
+"San Diego, California",Adams North,1237,2023-11-21,7951.467587887451
+"San Diego, California",Teralta West,1891,2023-11-21,12155.396288355028
+"San Diego, California",Morena,1896,2023-11-21,12187.536416034445
+"San Diego, California",Midtown,1548,2023-11-21,9950.58352954711
+"San Diego, California",Torrey Pines,263,2023-11-21,1690.5707159372673
+"San Diego, California",Barrio Logan,3206,2023-11-21,20608.249868041366
+"San Francisco, California",Glen Park,4315,2023-11-21,27736.930187335776
+"San Francisco, California",Pine Lake Park,338,2023-11-21,2172.6726311285033
+"San Francisco, California",Midtown Terrace,2060,2023-11-21,13241.732603919281
+"San Francisco, California",Sunnyside,5241,2023-11-21,33689.281833563575
+"San Francisco, California",Pacific Heights,13858,2023-11-21,89079.57787626864
+"San Francisco, California",Telegraph Hill,1719,2023-11-21,11049.77589618313
+"San Francisco, California",North Panhandle,325,2023-11-21,2089.1082991620224
+"San Francisco, California",Buena Vista Park,692,2023-11-21,4448.193670831138
+"San Francisco, California",Golden Gate Park,89,2023-11-21,572.0942726936
+"San Francisco, California",Inner Richmond,878,2023-11-21,5643.8064205054025
+"San Francisco, California",Presidio Heights,1993,2023-11-21,12811.054893015109
+"San Francisco, California",Downtown,12207,2023-11-21,78466.90771652557
+"San Francisco, California",Jordan Park - Laurel Heights,1250,2023-11-21,8035.031919853933
+"San Francisco, California",Visitacion Valley,15530,2023-11-21,99827.23657226526
+"San Francisco, California",Outer Sunset,1719,2023-11-21,11049.77589618313
+"San Francisco, California",Diamond Heights,246,2023-11-21,1581.2942818272538
+"San Francisco, California",Balboa Terrace,677,2023-11-21,4351.77328779289
+"San Francisco, California",Ingleside,4712,2023-11-21,30288.856325081382
+"San Francisco, California",Financial District,2645,2023-11-21,17002.127542410923
+"San Francisco, California",Lakeside,644,2023-11-21,4139.648445108746
+"San Francisco, California",Tenderloin,5612,2023-11-21,36074.07930737622
+"San Francisco, California",Mount Davidson Manor,1670,2023-11-21,10734.802644924854
+"San Francisco, California",Clarendon Heights,485,2023-11-21,3117.5923849033256
+"San Francisco, California",Hayes Valley,9545,2023-11-21,61355.50374000463
+"San Francisco, California",Crocker Amazon,3581,2023-11-21,23018.759443997544
+"San Francisco, California",Outer Mission,6432,2023-11-21,41345.06024680039
+"San Francisco, California",South of Market,8882,2023-11-21,57093.72280971411
+"San Francisco, California",Excelsior,2110,2023-11-21,13563.133880713438
+"San Francisco, California",Ingleside Heights,5528,2023-11-21,35534.125162362034
+"San Jose, California",Santa Teresa,6752,2023-11-21,43402.028418283
+"San Jose, California",East San Jose,105627,2023-11-21,678973.0532787291
+"San Jose, California",Willow Glen,32678,2023-11-21,210055.01846158944
+"San Jose, California",Downtown,14310,2023-11-21,91985.04541848782
+"San Jose, California",North San Jose,12079,2023-11-21,77644.12044793252
+"San Jose, California",Berryessa,32470,2023-11-21,208717.98915012574
+"San Jose, California",Fairgrounds,37820,2023-11-21,243107.9257671006
+"San Jose, California",Cambrian Park,52192,2023-11-21,335491.50876881316
+"San Jose, California",White Oak,3992,2023-11-21,25660.677939245517
+"San Jose, California",Evergreen,58565,2023-11-21,376457.3155089964
+"San Jose, California",Alviso,20,2023-11-21,128.5605107176629
+"San Jose, California",Alum Rock-East Foothills,7042,2023-11-21,45266.155823689114
+"San Jose, California",North Valley,36861,2023-11-21,236943.44927818864
+"San Jose, California",Edenvale - Seven Trees,8435,2023-11-21,54220.39539517434
+"San Jose, California",West San Jose,94185,2023-11-21,605423.5850971541
+"San Jose, California",Rose Garden,11987,2023-11-21,77052.74209863128
+"San Jose, California",Almaden Valley,1909,2023-11-21,12271.100748000927
+"San Jose, California",Blossom Valley,47626,2023-11-21,306141.1441719707
+"Seattle, Washington",Denny Triangle,2851,2023-11-21,18326.30080280285
+"Seattle, Washington",Maple Leaf,1975,2023-11-21,12695.350433369213
+"Seattle, Washington",Northgate,1957,2023-11-21,12579.645973723316
+"Seattle, Washington",Montlake,4070,2023-11-21,26162.063931044402
+"Seattle, Washington",Jackson Place,36,2023-11-21,231.40891929179324
+"Seattle, Washington",Interbay,1175,2023-11-21,7552.930004662697
+"Seattle, Washington",Olympic Manor,676,2023-11-21,4345.345262257007
+"Seattle, Washington",Olympic Hills,7446,2023-11-21,47863.07814018591
+"Seattle, Washington",Laurelhurst,4738,2023-11-21,30455.984989014345
+"Seattle, Washington",Matthews Beach,5977,2023-11-21,38420.308627973565
+"Seattle, Washington",Industrial District,176,2023-11-21,1131.3324943154337
+"Seattle, Washington",Fairmount Park,4637,2023-11-21,29806.75440989015
+"Seattle, Washington",University District,22807,2023-11-21,146603.9783968869
+"Seattle, Washington",Genesee,1111,2023-11-21,7141.536370366175
+"Seattle, Washington",Pioneer Square,771,2023-11-21,4956.007688165905
+"Seattle, Washington",Leschi,201,2023-11-21,1292.0331327125123
+"Seattle, Washington",Gatewood,3807,2023-11-21,24471.493215107137
+"Seattle, Washington",Loyal Heights,1830,2023-11-21,11763.286730666157
+"Seattle, Washington",Beacon Hill,1613,2023-11-21,10368.405189379515
+"Seattle, Washington",Holly Park,365,2023-11-21,2346.2293205973483
+"Seattle, Washington",Minor,5675,2023-11-21,36479.04491613685
+"Seattle, Washington",Waterfront,104,2023-11-21,668.5146557318473
+"Seattle, Washington",South Park,2807,2023-11-21,18043.46767922399
+"Seattle, Washington",Yesler Terrace,112,2023-11-21,719.9388600189124
+"Seattle, Washington",North Beach,773,2023-11-21,4968.863739237671
+"Seattle, Washington",Ballard,5460,2023-11-21,35097.01942592198
+"Seattle, Washington",Columbia City,6317,2023-11-21,40605.83731017383
+"Seattle, Washington",North Beacon Hill,3534,2023-11-21,22716.64224381104
+"Seattle, Washington",West Woodland,4308,2023-11-21,27691.934008584594
+"Seattle, Washington",Bryant,4627,2023-11-21,29742.474154531315
+"Tucson, Arizona",Rosemont East,131,2023-11-21,842.0713452006921
+"Tucson, Arizona",Catalina Vista,164,2023-11-21,1054.196187884836
+"Tucson, Arizona",Samos,25,2023-11-21,160.70063839707865
+"Tucson, Arizona",Amphi,6491,2023-11-21,41724.313753417504
+"Tucson, Arizona",Dietz,156,2023-11-21,1002.7719835977707
+"Tucson, Arizona",Rancho Perdido Estates,57,2023-11-21,366.39745554533937
+"Tucson, Arizona",Broadway Pantano East,2815,2023-11-21,18094.891883511056
+"Tucson, Arizona",San Ignacio Yaqui,554,2023-11-21,3561.1261468792627
+"Tucson, Arizona",Ironwood Ridge,122,2023-11-21,784.2191153777438
+"Tucson, Arizona",Mountain View,1341,2023-11-21,8619.982243619299
+"Tucson, Arizona",Prince Tucson,669,2023-11-21,4300.349083505825
+"Tucson, Arizona",Broadway-Northeast,519,2023-11-21,3336.1452531233526
+"Tucson, Arizona",Mortimore,490,2023-11-21,3149.7325125827415
+"Tucson, Arizona",Parkway Terrace,102,2023-11-21,655.6586046600809
+"Tucson, Arizona",Miracle Manor,1981,2023-11-21,12733.918586584512
+"Tucson, Arizona",Shaheen Estates,478,2023-11-21,3072.5962061521436
+"Tucson, Arizona",Barrio Blue Moon,988,2023-11-21,6350.8892294525485
+"Tucson, Arizona",Bravo Park Lane,2511,2023-11-21,16140.77212060258
+"Tucson, Arizona",Groves Lincoln Park,2217,2023-11-21,14250.932613052935
+"Tucson, Arizona",Las Vistas,1353,2023-11-21,8697.118550049896
+"Tucson, Arizona",Garden District,4834,2023-11-21,31073.075440459128
+"Tucson, Arizona",Palo Verde,1315,2023-11-21,8452.853579686336
+"Tucson, Arizona",Barrio Hollywood,320,2023-11-21,2056.9681714826065
+"Tucson, Arizona",Feldman's,848,2023-11-21,5450.965654428907
+"Tucson, Arizona",Barrio San Antonio,95,2023-11-21,610.6624259088989
+"Tucson, Arizona",Western Hills II,299,2023-11-21,1921.9796352290607
+"Tucson, Arizona",Stella Mann,1028,2023-11-21,6608.010250887874
+"Tucson, Arizona",North University,79,2023-11-21,507.8140173347686
+"Tulsa, Oklahoma",Columbus,41,2023-11-21,263.549046971209
+"Tulsa, Oklahoma",Oak Hollow,63,2023-11-21,404.9656087606382
+"Tulsa, Oklahoma",Executive Estates,8,2023-11-21,51.424204287065166
+"Tulsa, Oklahoma",Turner Park,1407,2023-11-21,9044.231928987587
+"Tulsa, Oklahoma",Kingsbury,76,2023-11-21,488.5299407271191
+"Tulsa, Oklahoma",Brookside,2524,2023-11-21,16224.33645256906
+"Tulsa, Oklahoma",Camelot Park,147,2023-11-21,944.9197537748224
+"Tulsa, Oklahoma",Leisure Estates,63,2023-11-21,404.9656087606382
+"Tulsa, Oklahoma",Cedar Ridge Park,146,2023-11-21,938.4917282389393
+"Tulsa, Oklahoma",Kensington,204,2023-11-21,1311.3172093201617
+"Tulsa, Oklahoma",Lynn Lane,3963,2023-11-21,25474.26519870491
+"Tulsa, Oklahoma",Maxwell,1829,2023-11-21,11756.858705130275
+"Tulsa, Oklahoma",North Evanston,348,2023-11-21,2236.9528864873346
+"Tulsa, Oklahoma",Eagle Ridge,41,2023-11-21,263.549046971209
+"Tulsa, Oklahoma",Heatherridge,44,2023-11-21,282.8331235788584
+"Tulsa, Oklahoma",Rosewood,2050,2023-11-21,13177.45234856045
+"Tulsa, Oklahoma",Mingo Valley,440,2023-11-21,2828.3312357885843
+"Tulsa, Oklahoma",Sheridan Heights,177,2023-11-21,1137.7605198513168
+"Tulsa, Oklahoma",Timberlane Hills,137,2023-11-21,880.6394984159909
+"Tulsa, Oklahoma",Florence Park South,304,2023-11-21,1954.1197629084763
+"Tulsa, Oklahoma",Fair Heights,552,2023-11-21,3548.2700958074975
+"Tulsa, Oklahoma",Fieldstone,25,2023-11-21,160.70063839707865
+"Tulsa, Oklahoma",Cherry Street,389,2023-11-21,2500.5019334585436
+"Tulsa, Oklahoma",Southern Pointe,166,2023-11-21,1067.0522389566022
+"Tulsa, Oklahoma",Mayo Plaza,30,2023-11-21,192.8407660764944
+"Tulsa, Oklahoma",Southfield,156,2023-11-21,1002.7719835977707
+"Tulsa, Oklahoma",West Highlands,918,2023-11-21,5900.9274419407275
+"Tulsa, Oklahoma",Harvard Pointe,13,2023-11-21,83.5643319664809
+"Tulsa, Oklahoma",Red Fork - Park Grove,1062,2023-11-21,6826.563119107901
+"Tulsa, Oklahoma",South Creekside,798,2023-11-21,5129.564377634751
+"Virginia Beach, Virginia",Chesapeake Beach,6651,2023-11-21,42752.79783915881
+"Virginia Beach, Virginia",First Landing State Park,42,2023-11-21,269.9770725070922
+"Virginia Beach, Virginia",Pembroke,827,2023-11-21,5315.977118175362
+"Virginia Beach, Virginia",Great Neck,9337,2023-11-21,60018.47442854095
+"Virginia Beach, Virginia",The North End,4016,2023-11-21,25814.950552106715
+"Virginia Beach, Virginia",Thalia,8188,2023-11-21,52632.6730878112
+"Virginia Beach, Virginia",Acredale,1071,2023-11-21,6884.41534893085
+"Virginia Beach, Virginia",Seatack,12837,2023-11-21,82516.56380413196
+"Virginia Beach, Virginia",Croatan Beach,221,2023-11-21,1420.5936434301752
+"Virginia Beach, Virginia",Bay Colony,366,2023-11-21,2352.657346133232
+"Virginia Beach, Virginia",Thoroughgood,3737,2023-11-21,24021.531427595317
+"Virginia Beach, Virginia",Dams Neck Naval Air Station,617,2023-11-21,3966.0917556399017
+"Virginia Beach, Virginia",Princess Anne Plaza,5990,2023-11-21,38503.87295994005
+"Virginia Beach, Virginia",US Navy Little Creek Amphibious Base,307,2023-11-21,1973.4038395161258
+"Virginia Beach, Virginia",Kempsville,46691,2023-11-21,300130.94029591995
+"Virginia Beach, Virginia",Linkhorn Park,1492,2023-11-21,9590.614099537654
+"Virginia Beach, Virginia",Cape Story by the Sea,68,2023-11-21,437.10573644005393
+"Virginia Beach, Virginia",Rudee Heights,418,2023-11-21,2686.914673999155
+"Virginia Beach, Virginia",Naval Air Station Oceana,2203,2023-11-21,14160.940255550573
+"Virginia Beach, Virginia",Fort Story,940,2023-11-21,6042.344003730157
+"Virginia Beach, Virginia",Bayside,32434,2023-11-21,208486.580230834
+"Virginia Beach, Virginia",Camp Pendleton,1428,2023-11-21,9179.220465241133
+"Virginia Beach, Virginia",Mears Corner,18354,2023-11-21,117979.98068559928
+"Virginia Beach, Virginia",Macons Corner,329,2023-11-21,2114.820401305555
+"Washington, District of Columbia",Langston,1351,2023-11-21,8684.26249897813
+"Washington, District of Columbia",Woodridge,1547,2023-11-21,9944.155504011227
+"Washington, District of Columbia",Barnaby Woods,459,2023-11-21,2950.4637209703637
+"Washington, District of Columbia",Pleasant Hill,1168,2023-11-21,7507.933825911515
+"Washington, District of Columbia",Kent,1105,2023-11-21,7102.968217150877
+"Washington, District of Columbia",Anacostia,395,2023-11-21,2539.0700866738425
+"Washington, District of Columbia",Berkley,370,2023-11-21,2378.369448276764
+"Washington, District of Columbia",Wakefield,2053,2023-11-21,13196.7364251681
+"Washington, District of Columbia",River Terrace,226,2023-11-21,1452.7337711095909
+"Washington, District of Columbia",Spring Valley,4733,2023-11-21,30423.84486133493
+"Washington, District of Columbia",Twining,735,2023-11-21,4724.5987688741125
+"Washington, District of Columbia",Deanwood,2789,2023-11-21,17927.763219578093
+"Washington, District of Columbia",Penn Quarter,960,2023-11-21,6170.9045144478205
+"Washington, District of Columbia",Pleasant Plains,591,2023-11-21,3798.9630917069394
+"Washington, District of Columbia",Civic Betterment,492,2023-11-21,3162.5885636545077
+"Washington, District of Columbia",Lincoln Heights,1217,2023-11-21,7822.907077169789
+"Washington, District of Columbia",The Palisades,1455,2023-11-21,9352.777154709976
+"Washington, District of Columbia",Edgewood,1372,2023-11-21,8819.251035231677
+"Washington, District of Columbia",Chinatown,1000,2023-11-21,6428.0255358831455
+"Washington, District of Columbia",Marshall Heights,4731,2023-11-21,30410.98881026317
+"Washington, District of Columbia",Carver,1733,2023-11-21,11139.768253685492
+"Washington, District of Columbia",Mahaning Heights,1332,2023-11-21,8562.13001379635
+"Washington, District of Columbia",Colony Hill,69,2023-11-21,443.5337619759372
+"Washington, District of Columbia",Mount Pleasant,7408,2023-11-21,47618.813169822344
+"Washington, District of Columbia",Observatory Circle,704,2023-11-21,4525.329977261735
+"Washington, District of Columbia",Near Northeast,6629,2023-11-21,42611.38127736937
+"Washington, District of Columbia",Penn Branch,155,2023-11-21,996.3439580618876
+"Washington, District of Columbia",McLean Gardens,817,2023-11-21,5251.696862816531
+"Washington, District of Columbia",Mount Vernon Square,4191,2023-11-21,26939.85502088627
+"Washington, District of Columbia",Brightwood Park,451,2023-11-21,2899.039516683299
+"Wichita, Kansas",Comotara Mainsgate Villa,534,2023-11-21,3432.5656361615997
+"Wichita, Kansas",Meadowlark,1210,2023-11-21,7777.910898418607
+"Wichita, Kansas",Schweiter,30,2023-11-21,192.8407660764944
+"Wichita, Kansas",College Hill,4040,2023-11-21,25969.22316496791
+"Wichita, Kansas",Northwest Big River,263,2023-11-21,1690.5707159372673
+"Wichita, Kansas",Fabrique,919,2023-11-21,5907.355467476611
+"Wichita, Kansas",Delano,4073,2023-11-21,26181.348007652057
+"Wichita, Kansas",Mccormick,460,2023-11-21,2956.8917465062473
+"Wichita, Kansas",Hilltop,1514,2023-11-21,9732.030661327084
+"Wichita, Kansas",Orchard Breeze,2773,2023-11-21,17824.914811003968
+"Wichita, Kansas",K-15,958,2023-11-21,6158.048463376053
+"Wichita, Kansas",Southwest Village,35,2023-11-21,224.9808937559101
+"Wichita, Kansas",Westlink,221,2023-11-21,1420.5936434301752
+"Wichita, Kansas",Courtland,426,2023-11-21,2738.3388782862207
+"Wichita, Kansas",Planeview United,4300,2023-11-21,27640.509804297526
+"Wichita, Kansas",Maple Hills,158,2023-11-21,1015.6280346695372
+"Wichita, Kansas",Indian Hills,488,2023-11-21,3136.8764615109753
+"Wichita, Kansas",Macdonald,349,2023-11-21,2243.380912023218
+"Wichita, Kansas",Longview,247,2023-11-21,1587.7223073631371
+"Wichita, Kansas",Fairmount,1432,2023-11-21,9204.932567384665
+"Wichita, Kansas",Crown Heights South,83,2023-11-21,533.5261194783011
+"Wichita, Kansas",Stanley-Aley,3387,2023-11-21,21771.722490036216
+"Wichita, Kansas",Lambsdale,126,2023-11-21,809.9312175212764
+"Wichita, Kansas",Grandview Heights,1265,2023-11-21,8131.452302892179
+"Wichita, Kansas",Hilltop - Jefferson,616,2023-11-21,3959.6637301040178
+"Wichita, Kansas",Country Overlook,1204,2023-11-21,7739.342745203309
+"Wichita, Kansas",La Placita Park,2567,2023-11-21,16500.741550612034
+"Wichita, Kansas",Sunnyside,154,2023-11-21,989.9159325260044
+"Wichita, Kansas",Crown Heights,1075,2023-11-21,6910.1274510743815
+"Indianapolis, Indiana",Far Eastside,41537,2023-11-21,267000.8966839782
+"Indianapolis, Indiana",Meridian Kessler,582,2023-11-21,3741.1108618839917
+"Indianapolis, Indiana",South Perry,6553,2023-11-21,42122.851336642256
+"Indianapolis, Indiana",Mars Hill,10308,2023-11-21,66260.08722388347
+"Indianapolis, Indiana",Chapel Hill-Ben Davis,2171,2023-11-21,13955.243438402309
+"Indianapolis, Indiana",West Indianapolis,4937,2023-11-21,31735.162070655093
+"Indianapolis, Indiana",Airport,26,2023-11-21,167.1286639329618
+"Indianapolis, Indiana",Garden City,11000,2023-11-21,70708.28089471461
+"Indianapolis, Indiana",Snacks-Guion Creek,1266,2023-11-21,8137.880328428063
+"Indianapolis, Indiana",Crooked Creek,13796,2023-11-21,88681.04029304389
+"Indianapolis, Indiana",New Bethel,1392,2023-11-21,8947.811545949338
+"Indianapolis, Indiana",Martindale-Brightwood,11719,2023-11-21,75330.03125501459
+"Indianapolis, Indiana",Stout Field,2892,2023-11-21,18589.84984977406
+"Indianapolis, Indiana",Maywood,26,2023-11-21,167.1286639329618
+"Indianapolis, Indiana",Southeast,4913,2023-11-21,31580.889457793895
+"Indianapolis, Indiana",College Corner,14,2023-11-21,89.99235750236404
+"Indianapolis, Indiana",Five Points,103,2023-11-21,662.0866301959641
+"Indianapolis, Indiana",North Central,859,2023-11-21,5521.673935323623
+"Indianapolis, Indiana",Ameriplex,1568,2023-11-21,10079.144040264773
+"Indianapolis, Indiana",Keystone at the Crossing,1701,2023-11-21,10934.071436537231
+"Indianapolis, Indiana",West Newton,1468,2023-11-21,9436.341486676458
+"Indianapolis, Indiana",Butler-Tarkington,4307,2023-11-21,27685.505983048708
+"Indianapolis, Indiana",Key Meadows,2440,2023-11-21,15684.382307554875
+"Indianapolis, Indiana",Near Eastside,29415,2023-11-21,189080.37113800272
+"Indianapolis, Indiana",St Vincent-Greenbriar,5949,2023-11-21,38240.32391296884
+"Indianapolis, Indiana",Southeast Warren,3698,2023-11-21,23770.838431695876
+"Indianapolis, Indiana",Mapleton-Fall Creek,1848,2023-11-21,11878.991190312054
+"Indianapolis, Indiana",Devonshire,4911,2023-11-21,31568.033406722134
+"Indianapolis, Indiana",Poplar Grove,3026,2023-11-21,19451.2052715824
+"Indianapolis, Indiana",Fairgrounds,2773,2023-11-21,17824.914811003968
+"Louisville, Kentucky",Valley Station,2097,2023-11-21,13479.569548746958
+"Louisville, Kentucky",Highview,12219,2023-11-21,78544.04402295616
+"Louisville, Kentucky",Fern Creek,12482,2023-11-21,80234.61473889343
+"Louisville, Kentucky",Okolona,5343,2023-11-21,34344.940438223646
+"Nashville-Davidson, Tennessee",Carlyle Palce - Battlewood,334,2023-11-21,2146.9605289849706
+"Nashville-Davidson, Tennessee",River Park,5,2023-11-21,32.14012767941573
+"Nashville-Davidson, Tennessee",Whites Bend,1572,2023-11-21,10104.856142408305
+"Nashville-Davidson, Tennessee",Nashboro Woods,303,2023-11-21,1947.6917373725933
+"Nashville-Davidson, Tennessee",Heron Walk,5526,2023-11-21,35521.26911129027
+"Nashville-Davidson, Tennessee",Battlefield,183,2023-11-21,1176.328673066616
+"Nashville-Davidson, Tennessee",Magnolia Station,172,2023-11-21,1105.6203921719011
+"Nashville-Davidson, Tennessee",Georgetown Condos,31,2023-11-21,199.26879161237756
+"Nashville-Davidson, Tennessee",Parkview,79,2023-11-21,507.8140173347686
+"Nashville-Davidson, Tennessee",Parkway Terrace (MDHA),104,2023-11-21,668.5146557318473
+"Nashville-Davidson, Tennessee",Greenwood,1329,2023-11-21,8542.845937188702
+"Nashville-Davidson, Tennessee",Lone Oak Heights,12,2023-11-21,77.13630643059776
+"Nashville-Davidson, Tennessee",Madison Park,291,2023-11-21,1870.5554309419958
+"Nashville-Davidson, Tennessee",Sugartree,12,2023-11-21,77.13630643059776
+"Nashville-Davidson, Tennessee",Wynbrook,32,2023-11-21,205.69681714826066
+"Nashville-Davidson, Tennessee",Lipscomb Heights,64,2023-11-21,411.3936342965213
+"Nashville-Davidson, Tennessee",Bordeaux,2286,2023-11-21,14694.466375028871
+"Nashville-Davidson, Tennessee",Montogue,97,2023-11-21,623.5184769806651
+"Nashville-Davidson, Tennessee",Hermitage Meadows,2332,2023-11-21,14990.155549679495
+"Nashville-Davidson, Tennessee",Elmington Condos,4,2023-11-21,25.712102143532583
+"Nashville-Davidson, Tennessee",Clairmont,425,2023-11-21,2731.910852750337
+"Nashville-Davidson, Tennessee",Piccadilly Square,1542,2023-11-21,9912.01537633181
+"Nashville-Davidson, Tennessee",Caldwell Court Condos,620,2023-11-21,3985.3758322475505
+"Nashville-Davidson, Tennessee",Four Seasons Condos,163,2023-11-21,1047.768162348953
+"Nashville-Davidson, Tennessee",Woodside Lake Country Section 2,215,2023-11-21,1382.0254902148763
+"Nashville-Davidson, Tennessee",Woodlea Place,753,2023-11-21,4840.303228520009
+"Nashville-Davidson, Tennessee",Villages of Riverwood,9,2023-11-21,57.85222982294831
+"Nashville-Davidson, Tennessee",Autumn Chase,0,2023-11-21,0.0
+"Nashville-Davidson, Tennessee",Bells Bend,212,2023-11-21,1362.7414136072268
+"Nashville-Davidson, Tennessee",Kenmont Apts,1,2023-11-21,6.428025535883146
