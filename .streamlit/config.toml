@@ -1,0 +1,8 @@
+[theme]
+primaryColor="#823DD3"
+backgroundColor="#0E1117"
+secondaryBackgroundColor="#262730"
+textColor="#FAFAFA"
+
+[mapbox]
+token = "pk.eyJ1IjoiaXR1bnVvbHV3YSIsImEiOiJjbHBiMzhxdjAwYmFvMmpzOXB0emppb3p2In0.N62cjmPXANwjFBndKOKgwA"
