@@ -1,3 +1,4 @@
+from shapely import wkt
 import streamlit as st
 from PIL import Image
 import altair as alt
@@ -30,3 +31,20 @@ def altair_bar_chart(df, xaxis, xtitle, yaxis, textaxis, tooltip, color):
     text = bar_chart.mark_text(align='left', color=color, baseline='middle', dx=3).encode(text=textaxis)
     bar_chart = bar_chart + text
     return bar_chart
+
+# convert a Polygon string to a list of coordinates
+def wkt_polygon_to_coordinates(wkt_polygon):
+    polygon = wkt.loads(wkt_polygon)
+    if polygon.is_empty: return None
+    if polygon.geom_type == 'Polygon':
+        coordinates = [list(polygon.exterior.coords)]
+    elif polygon.geom_type == 'MultiPolygon':
+        coordinates = [list(p.exterior.coords) for p in polygon.geoms]
+    else:
+        return None
+    return coordinates
+
+# convert hex color to rgb
+def hex_to_rgb(h):
+    h = h.lstrip("#")
+    return tuple(int(h[i : i + 2], 16) for i in (0, 2, 4))

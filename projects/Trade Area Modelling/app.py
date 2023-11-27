@@ -4,6 +4,7 @@ import pydeck as pdk
 import pandas as pd
 import numpy as np
 import udfs
+import ast
 import os
 
 logo = Image.open('pictures/logo.png')
@@ -85,7 +86,8 @@ with exploration_tab:
     # visualize results
     st.markdown(f"""{brand_name}'s cityscape reveals a hotspot in Western United States, primarily
                      California. Their first physical footprint will be in the top customer city which is
-                     <strong style="color:#823DD3;">{prime_location}.</strong>""",
+                     <strong style="color:#823DD3;">{prime_location}.</strong> The next tab answers the
+                     question of where in Los Angeles is best.""",
                      unsafe_allow_html=True)
     map_col, bar_col = st.columns([2,1], gap='small')
     with map_col.expander(f'Cityscape of {brand_name}: Unveiling Customer Hotspots', expanded=True):
@@ -96,21 +98,49 @@ with exploration_tab:
 with tam_tab:
     customer_communities['population_string'] = customer_communities['population'].apply(lambda x: '{:,}'.format(x))
     prime_community = customer_communities.loc[customer_communities['location'] == prime_location]
-    st.write(prime_community)
+    st.write(prime_community.head())
+
+    store_data = udfs.load_data('data/stores/store_data.csv')
+    store_data['geometry'] = store_data['geometry'].apply(lambda x: udfs.wkt_polygon_to_coordinates(x))
+    st.write(store_data.head(2))
+
+    path_df = udfs.load_data('data/stores/path_to_store.csv')
+    path_df = pd.melt(frame=path_df, id_vars='neighborhoods', var_name='store', value_name='path')
+    path_df['path'] = path_df['path'].apply(ast.literal_eval)
+    path_df['path'] = path_df['path'].apply(lambda x:[[coord[1],coord[0]] for coord in x])
+    
+    traffic_time = udfs.load_data('data/stores/traffic_time_mins.csv')
+    traffic_time = pd.melt(frame=traffic_time, id_vars='neighborhoods', var_name='store', value_name='time')
+    
+    distance = udfs.load_data('data/stores/store_distances.csv')
+    distance = pd.melt(frame=distance, id_vars='neighborhoods', var_name='store', value_name='distance')
+    
+    path_df = pd.merge(left=path_df, right=traffic_time, how='inner', on=['neighborhoods','store'])\
+        .merge(right=distance, how='inner', on=['neighborhoods','store'])
+    time_rank = path_df['time'].rank(pct=True, ascending=False)
+    path_df.loc[time_rank<0.25, 'color'] = '#ED7D31'
+    path_df.loc[(time_rank>=0.25) & (time_rank<0.5), 'color'] = '#F4B183'
+    path_df.loc[(time_rank>=0.5) & (time_rank<0.75), 'color'] = '#8FAADC'
+    path_df.loc[time_rank>=0.75, 'color'] = '#4472C4'
+    path_df['color'] = path_df['color'].apply(udfs.hex_to_rgb)
+    st.write(path_df.head())
+    
     # create the map chart
     prime_community_layer = pdk.Layer(type='ScatterplotLayer', data=prime_community,
                                       get_position=['longitude','latitude'], pickable=True,
                                       get_color=[130, 61, 211, 160], get_radius='population/100',
+                                      tooltip={"text": """Neighborhood: {neighborhoods}\nPopulation: {population_string}"""},
                                       auto_highlight=True)
-    #customer_cities_prime_layer = pdk.Layer(type='ScatterplotLayer', data=customer_cities.loc[[0]],
-     #                                 get_position=['longitude','latitude'], pickable=True,
-      #                                get_color=[130, 61, 211, 160], get_radius='population/3',
-       #                               auto_highlight=True)
+    stores_layer = pdk.Layer(type='PolygonLayer', data=store_data, get_polygon='geometry', filled=True,
+                             get_fill_color=[130, 61, 211, 160], get_line_color=[130, 61, 211, 160], get_line_width=100,
+                             tooltip={"text": """Store: {name}\nAddress: {address}"""},
+                             pickable=True, auto_highlight=True)
+    path_layer = pdk.Layer(type='PathLayer', data=path_df, pickable=True, get_color='color', width_scale=20,
+                           width_min_pixels=2, get_path='path', get_width=5, auto_highlight=True,
+                           tooltip={'text': """From: {neighborhoods}\nTo: {store}"""})
     prime_community_view_state = pdk.ViewState(longitude=prime_location_lng, latitude=prime_location_lat,
-                                               zoom=11, min_zoom=2, pitch=50)
-    prime_community_map = pdk.Deck(map_style=None, layers=[prime_community_layer],
+                                               zoom=10, min_zoom=2, pitch=50)
+    prime_community_map = pdk.Deck(map_style=None, layers=[prime_community_layer, stores_layer, path_layer],
                                    initial_view_state=prime_community_view_state,
-                                   tooltip={"text": """Neighborhood: {neighborhoods}\nPopulation: {population_string}"""}
                                    )
     st.pydeck_chart(prime_community_map, use_container_width=True)
-    
