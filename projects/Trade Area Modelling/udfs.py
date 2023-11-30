@@ -38,6 +38,8 @@ def wkt_polygon_to_coordinates(wkt_polygon):
     if polygon.is_empty: return None
     if polygon.geom_type == 'Polygon':
         coordinates = [list(polygon.exterior.coords)]
+    elif polygon.geom_type == 'LineString':
+        coordinates = list(polygon.coords)
     elif polygon.geom_type == 'MultiPolygon':
         coordinates = [list(p.exterior.coords) for p in polygon.geoms]
     else:
