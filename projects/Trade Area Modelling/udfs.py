@@ -1,10 +1,7 @@
 from shapely import wkt
 import streamlit as st
-from PIL import Image
 import altair as alt
 import pandas as pd
-import numpy as np
-import os
 
 # read csv file
 @st.cache_data(ttl=12*60*60)
