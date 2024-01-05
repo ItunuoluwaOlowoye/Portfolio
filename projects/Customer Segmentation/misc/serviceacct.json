@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "zaddy-tams",
+  "private_key_id": "cc085ff3cb53c9438f73fa2eeb920d45a9079cb7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC4lim+BXXQNwkU\nWZ2tFbM6Ddtotc4encwJ+iq34yujclbSaMw03peHn5wm/qldFyf8HVltW0nxQLdP\n+LAcZDqJtL2+6f4fsQlfooPURq6drfTy/+sZgCfekN64+UPlWvA064NskeOL52Y1\nTbSzgFp6Pk2THQMnQ9qKZfqBoIjVpnoJVC9TKCk0MGlpEDx6Hnzx62RN2S1XBHfq\nGBsCfc92OJPAnVIKSvy+GBU6zFz4rbunt3yg/2c6UE2xRkS7z6SMYD9MG/rI9oLD\ngK1s0nQiE75qepEG5+kvIRa4irPG9n7iVfJ6vpQGcI2tPn00R6fli4JL8sGao4KI\nilE0P86/AgMBAAECggEATfvjFsznwVf/FgHmg8GvPs+r6skkk/rGwVBXy+jF/v/H\nfo2X+J4yFrJwHmlo1FN8KR+dMH5o9uwIhljizpvpv1QE9iuVmX4KH8VhPMW/8A4W\ndrN4eAWU0osSDcQB01xgL3twwuW/5NOWct6pgUyw7QR1cbnII0afhekftLRGGzzI\n9IsfmuCPXIg6B94pOfHg1IGFtnwTQIri4T9mUrVtHMAWyg/Bmk+uqWWmOVFo/B6A\nQ/WVzpC11VOGDUH9Y/Z+H0nrnuRdvTe7UE3vLzrU2Sxpz5f5mnRr0VvsBdfdt2AO\nyb4BAkoz3f7q6fI04Yt3to7+OC3aWjYMT+t9bS1jQQKBgQD4RHvH4xHAPTfdZcpO\ncak3g7j0auvsuR+3yiDur7Qn2SVvH+IyqaSPLJEayAeWpipGeMMg+RBO0AAZtEfR\nU/pDvx0kXpYT8MWwl5Jk+8haYtH4eSYVg4GMhI7E994xDXYM2eYgk9VkbjPZgpoX\n6fHO4qWxlH1/Ob6QubBOHqbrRQKBgQC+Ve5Ve3oYz7K8PQongSTE9vC72b0ChAW1\nSZaAjWivggdZfpJVNNmHvinbdzXGa0wXACc7JWVT+he8J4ZNxnm2srUir9WrXD7L\nvHNtrFengULH+gqm+8M05H18HpN6E9YK1Q8xieeTX9k1rMbgCn+goTL+I9spmVPV\nuCVC1nowMwKBgDsq/yEVUc6yCFVghAWL+xs67mJ59P425INFzfF0uIfirZQ9Ughm\n+8wPgAmU8JILyfl/oGmEUkmmMs/tckxGKlfo/UYEsNnRwRukFASzKP25nXcNUHFC\nJSbbFLeGp1KjdaX8bGcJNIs55GuLP7RBUhrPU1PuIramiW8uggEsNvXNAoGAdRE7\nXx5sMZiF8ZuFhFi9Odw8ov3AcCytqhxR0k2nhtNuG9BqxreT2BbRfefrjlfuW/M/\nLfTJRwZ61MJmq62YrRNrr6MAw74f7YXCZUFsRF2PqpoTNTOClCS5Pb88rAhJTS5Q\ngwK0CYQZgBb910z9xNmBGKkLIqHo23nAiUSLsNsCgYBPcd17/ALT22ZBslQRrVF6\nXQiRZHeUIBkhpKycwCmy3Le1Ei3fF/SHKGrqlOUgaO82GzcwIQtOr6gx/TLSMMS/\nACIBXb4s/ThV2FrGoHGyLuDp7Bo0ob0GZty4ZTuJ0lKL3C0NVugzVEnam1Q/HvjQ\npEPbn7BT2NuI9isOx01TBA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "serviceaccount@zaddy-tams.iam.gserviceaccount.com",
+  "client_id": "103773612374005122830",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/serviceaccount%40zaddy-tams.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
