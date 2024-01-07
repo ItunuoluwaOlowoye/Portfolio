@@ -51,8 +51,8 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
         udfs.page_header('Customer Segmentation Model',logo_image)
         # give overview of the app
         st.markdown('''
-        This segmentation model is built based on data provided from survey responses of 284 Woolworths customers.
-        These customers were asked questions about their biodata, and their interactions with Woolworths and its
+        This segmentation model is built based on data provided from survey responses of 100 Walmart customers.
+        These customers were asked questions about their biodata, and their interactions with Walmart and its
         competitors over three months. The responses were recorded in February and March, 2023, although one
         customer responded in November 2022.
 
@@ -63,13 +63,13 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
         
         There are four categories used to build customer segments:
         1. **Behavioural Segmentation**: This is based on their purchasing
-        behaviour. It takes into account how frequently they shop with Woolworths, how much they earn, and 
+        behaviour. It takes into account how frequently they shop with Walmart, how much they earn, and 
         how much they spend. This segmentation can identify customers to be targeted with __*specific marketing 
         campaigns*__ tailored towards their needs
         2. **Competitor Landscape/Loyalty Segmentation**: This is based on whether or not customers prefer to shop 
-        at Woolworths compared to shopping at competitor stores. In understanding the competitor landscape, we can
-        infer how loyal customers are to the Woolworths brand. It takes into account how frequently they shop with
-        Woolworths, how many listed competitor stores they also shop from, and how much they spend at these stores.
+        at Walmart compared to shopping at competitor stores. In understanding the competitor landscape, we can
+        infer how loyal customers are to the Walmart brand. It takes into account how frequently they shop with
+        Walmart, how many listed competitor stores they also shop from, and how much they spend at these stores.
         This can help to identify potential areas for improvement, and develop targeted strategies to __*enhance
         customer satisfaction and loyalty*__ where needed.
         3. **Product Preference Segmentation**: This is based on preference for the four product offerings (food, 
@@ -152,7 +152,7 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
                         2. Whether they prefer to buy fullprice or discounted items. **Please note that each customer can choose more
                         than one option**.<br>
                         3. How often they shop: In the dataset, the shopping frequency was provided for each product offering. The maximum 
-                        frequency was selected as the frequency of shopping from Woolworths in general.<br>
+                        frequency was selected as the frequency of shopping from Walmart in general.<br>
                         4. Whether or not they use store benefits. **Please note that each customer can use more than one store
                         benefit**.<br>
                         5. How much they spend per shop.''', 
@@ -177,7 +177,7 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
         with loyalty:
             st.markdown(f'''This tab summarizes the competitor landscape and can be used to infer customer loyalty
                         through how many competitors each customer shops from and a comparison of their spend at
-                        Woolworths to their spend at competitors. <br>**Please note that the list of competitors is
+                        Walmart to their spend at competitors. <br>**Please note that the list of competitors is
                         not exhaustive. Customers responded `None of the above` if the competitor was not listed.
                         `None of the above` responses were counted as one possible competitor**''', 
                         unsafe_allow_html=True)
@@ -224,13 +224,13 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
                 st.markdown(f'''**Behavioural Segmentation**: This is based on customer purchasing behaviour. This segmentation can 
                             identify customers to be targeted with __*specific marketing campaigns*__ tailored
                             towards their needs.<br>The KMeans algorithm was used to create clusters/personas based on: <br> 
-                            1. How often customers shop at Woolworths *(general_freq)* <br> 2. How much they earn
-                            *(income)*<br> 3. How much they spend *(Spend at Woolworths)*
-                            when shopping at Woolworths.<br><br>These features were preprocessed for the algorithm in the following manner:<br>
-                            1. Frequency, income, and spend at Woolworths were all converted to numeric values in
+                            1. How often customers shop at Walmart *(general_freq)* <br> 2. How much they earn
+                            *(income)*<br> 3. How much they spend *(Spend at Walmart)*
+                            when shopping at Walmart.<br><br>These features were preprocessed for the algorithm in the following manner:<br>
+                            1. Frequency, income, and spend at Walmart were all converted to numeric values in
                             one column each. For income and spend, the average of the ranges given was used as the 
                             numeric value; for frequency, the timeframes were converted to numbers<br>
-                            2. The distributions of frequency and income were validated to be symmetric and the spend at Woolworths was 
+                            2. The distributions of frequency and income were validated to be symmetric and the spend at Walmart was 
                             converted to logarithmic scale so that the distribution can become symmetric<br>
                             3. All features were standardized to an average of 0 and variance of 1<br>
                             4. The algorithm was run to create from 1 to 10 clusters, calculating sum of squared errors (SSE) and selecting
@@ -243,7 +243,7 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
                 bhv_cluster_results = udfs.kmeans_segmentation(bhv_df_raw, bhv_cluster_results, bhv_sse, bhv_df_melt_chart, bhv_df_relative_imp_chart)
             with rec:
                 st.write(bhv_cluster_results.set_index('Cluster'))
-                cols_to_select = [id,high_freq_col,cat_income_col] + [col for col in customer_df.columns if 'How much do you normally spend, per shop, when you shop at Woolworths' in col]
+                cols_to_select = [id,high_freq_col,cat_income_col] + [col for col in customer_df.columns if 'How much do you normally spend, per shop, when you shop at Walmart' in col]
                 udfs.list_customers(customer_df, cols_to_select, bhv_cluster_results['Cluster'].unique())
                 st.markdown('<h4> Insights and Recommendations </h4>', unsafe_allow_html=True)
                 st.markdown('''
@@ -260,19 +260,19 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
             overview, cluster, rec = st.tabs(['Overview', 'Clustering Algorithm', 'Customer Personas, Insights and Recommendations'])
             with overview:
                 st.markdown(f'''**Competitor Landscape/Loyalty Segmentation**: This is based on whether or not customers 
-                            prefer to shop at Woolworths compared to shopping at competitor stores. In understanding
-                            the competitor landscape, we can infer how loyal customers are to the Woolworths brand.
+                            prefer to shop at Walmart compared to shopping at competitor stores. In understanding
+                            the competitor landscape, we can infer how loyal customers are to the Walmart brand.
                             This can help to identify potential areas for improvement, and develop targeted strategies
                             to __*enhance customer satisfaction and loyalty*__ where needed.<br><br>The KMeans algorithm
                             was used to create clusters/personas based on: <br> 
-                            1. How often customers shop at Woolworths *(general_freq)* <br> 2. The number of listed competitors
+                            1. How often customers shop at Walmart *(general_freq)* <br> 2. The number of listed competitors
                             they also shop from *(Number of competitors)*. Please note that for customers who answered `None of
                             the above`, it was taken to mean at least one other possible competitor. <br> 3. The ratio of how 
-                            much they spend at Woolworths compared to how much they spend at competitors *(spend_ratio_ww_vs_comp)*.
-                            It was calculated as $$ Spend at Woolworths/Spend at competitors $$. A low spend ratio means
+                            much they spend at Walmart compared to how much they spend at competitors *(spend_ratio_ww_vs_comp)*.
+                            It was calculated as $$ Spend at Walmart/Spend at competitors $$. A low spend ratio means
                             that they spent more at competitors while a high spend ration means that they spent more at 
-                            Woolworths. <br><br>For customers who did not respond to how much they spent at competitors, their frequency and number of
-                            competitors were used to infer their loyalty to Woolworths.<br><br>These features were 
+                            Walmart. <br><br>For customers who did not respond to how much they spent at competitors, their frequency and number of
+                            competitors were used to infer their loyalty to Walmart.<br><br>These features were 
                             preprocessed for the algorithm in the following manner:<br>
                             1. The spend ratio and number of competitors was calculated; for frequency, the timeframes
                             were converted to numbers<br>
@@ -298,17 +298,17 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
                     persona_df = lty1_cluster_result.set_index('Cluster')
                     persona_df.columns = persona_df.columns.str.replace('FNS_','').str.title()
                     st.write(persona_df)
-                    cols_to_select = ['Respondent ID','Thinking back over the last 3 months, how regularly did you shop with Woolworths', 'Number of competitors']
+                    cols_to_select = ['customer_id','Thinking back over the last 3 months, how regularly did you shop with Walmart', 'Number of competitors']
                     udfs.list_customers(fns_customer_df, cols_to_select+ ['spend_ratio_ww_vs_comp'], lty1_cluster_result['Cluster'].unique(), seg_type='loyalty1',key='loyalty1', persona_type='FNS')
                     st.markdown('<h4> Insights and Recommendations </h4>', unsafe_allow_html=True)
                     st.markdown('''
-                    **Cluster 0**: These set of customers have alternatives to Woolworths and spend more at the competitors.
+                    **Cluster 0**: These set of customers have alternatives to Walmart and spend more at the competitors.
                     They may be difficult to convert.<br>
-                    **Cluster 1**: These customers have other alternatives but still shop often at Woolworths. Strategies can
+                    **Cluster 1**: These customers have other alternatives but still shop often at Walmart. Strategies can
                     be implemented based on dashboard insights from these customers to enhance customer satisfaction and stock up more
                     of what they prefer to shop<br>
                     **Cluster 2**: These customers have many alternatives and will be difficult to convert<br>
-                    **Cluster 3**: These customers spend more at Woolworths and have lesser alternatives. They don't shop as often and can be
+                    **Cluster 3**: These customers spend more at Walmart and have lesser alternatives. They don't shop as often and can be
                     targeted for upselling opportunities<br>
                     **Cluster 4**: These are loyal customers and can be targeted for exclusive loyalty programs''',
                     unsafe_allow_html=True)
@@ -319,9 +319,9 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
                     udfs.list_customers(fs_customer_df, cols_to_select, lty2_cluster_result['Cluster'].unique(), seg_type='loyalty2', key='loyalty2', persona_type='FN')
                     st.markdown('<h4> Insights and Recommendations </h4>', unsafe_allow_html=True)
                     st.markdown('''
-                    **Cluster 0**: These set of customers shop often from Woolworths although they may have few to many
-                    alternatives. They can also be eligible for loyalty programs to keep them devoted to Woolworths.<br>
-                    **Cluster 1**: These customers show no visible preference for either Woolworths or its competitors<br>
+                    **Cluster 0**: These set of customers shop often from Walmart although they may have few to many
+                    alternatives. They can also be eligible for loyalty programs to keep them devoted to Walmart.<br>
+                    **Cluster 1**: These customers show no visible preference for either Walmart or its competitors<br>
                     **Cluster 2**: These customers have many alternatives and will be difficult to convert''',
                     unsafe_allow_html=True)
         
@@ -349,7 +349,7 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
                 product_cluster_result = udfs.kmeans_segmentation(product_df_raw, product_cluster_result, product_df_sse, product_df_melt_chart, product_df_relative_imp_chart, seg_type='product preference')
             with rec:
                 st.write(product_cluster_result.set_index('Cluster'))
-                cols_to_select = [id] + [col for col in customer_df.columns if 'Thinking back over the last 3 months, how regularly did you shop with Woolworths for different products:' in col]
+                cols_to_select = [id] + [col for col in customer_df.columns if 'Thinking back over the last 3 months, how regularly did you shop with Walmart for different products:' in col]
                 udfs.list_customers(customer_df, cols_to_select, product_cluster_result['Cluster'].unique(), key='prod_pref', seg_type='product_preference', persona_type='PF')
                 st.markdown('<h4> Insights and Recommendations </h4>', unsafe_allow_html=True)
                 st.markdown('''
@@ -407,7 +407,7 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
                     **Cluster 0**: These customers like both personalized service and convenience. Promotions can be
                     offered to them both instore and online<br>
                     **Cluster 1**: These customers prefer personalized service although they can occasionally use the
-                    app. Instore promotions should be offered to them. Also, if Woolworths wants to drive more traffic towards the 
+                    app. Instore promotions should be offered to them. Also, if Walmart wants to drive more traffic towards the 
                     app for food sales, these customers can be targeted<br>
                     **Cluster 2**: These customers prefer convenience and use the app. App-specific promotions can be offered
                     to them. Since they sometimes shop instore, they can also be eligible for instore promotions<br>
@@ -427,7 +427,7 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
                     st.markdown('''
                     **Cluster 0**: These customers rarely use any of the channels<br>
                     **Cluster 1**: These customers prefer personalized service although they can occasionally use the
-                    app. Instore promotions should be offered to them. Also, if Woolworths wants to drive more traffic towards the 
+                    app. Instore promotions should be offered to them. Also, if Walmart wants to drive more traffic towards the 
                     app for fashion sales, these customers can be targeted<br>
                     **Cluster 2**: These customers prefer personalised service and can be targeted for in-store promotions<br>
                     **Cluster 3**: These customers prefer convenience and shopping online so they can be targeted for online promotions''',
@@ -445,28 +445,26 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
 
     # for the personas
     else:
-        # save model results to a google sheet
-        #ModelCalc.save_model(customer_df=customer_df)
         # set header
         udfs.page_header('Customer Profiles',logo_image)
         
         #......................................................................................
         # create df for profile and store feature values in variables
         seg_df = customer_df.astype(str).replace('nan','')
-        seg_df['Respondent ID'] = seg_df['Respondent ID'].astype(str)
+        seg_df['customer_id'] = seg_df['customer_id'].astype(str)
         seg_columns = list(seg_df.columns)
         name_col, filter_col = st.columns([1,2])
         name_col.write('Whose profile do you want to check?')
-        customer_id_list = list(customer_df['Respondent ID'].unique())
+        customer_id_list = list(customer_df['customer_id'].unique())
         index_person = '118251975590'
         try: 
             customer_id_list.remove(index_person)
             customer_id_list = [index_person] + customer_id_list
         except: pass
         customer = filter_col.selectbox('Customer ID', options=customer_id_list, label_visibility='collapsed')
-        seg_df = seg_df[seg_df['Respondent ID']==customer].fillna('')
-        gender = seg_df.iloc[0]['Gender']
-        age = seg_df.iloc[0]['How old are you?']
+        seg_df = seg_df[seg_df['customer_id']==customer].fillna('')
+        gender = seg_df.iloc[0]['gender']
+        age = seg_df.iloc[0]['age_range']
         shop_for = seg_df.iloc[0]['Who do you normally shop for?']
         income_orig = seg_df.iloc[0]['What is your total annual household income? Untreated']
         income_filled = seg_df.iloc[0]['What is your total annual household income?']
@@ -478,18 +476,18 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
         saletype = saletype.fillna('').apply(lambda row: ', '.join(row.astype(str)), axis=1).str.strip(', ').str.replace(', , , ',', ').str.replace(', , ',', ')
         benefits = seg_df.loc[:,[col for col in seg_columns if 'Do you have any of the following? Please tick all the apply' in col]]
         benefits = benefits.fillna('').apply(lambda row: ', '.join(row.astype(str)), axis=1).str.strip(', ').str.replace(', , , ',', ').str.replace(', , ',', ').str.replace(', , ',', ')
-        competitors = seg_df.loc[:,[col for col in seg_columns if 'Where else do you shop for food and clothing online, if not Woolworths?' in col and 'None of the above' not in col]].fillna('')
+        competitors = seg_df.loc[:,[col for col in seg_columns if 'Where else do you shop for food and clothing online, if not Walmart?' in col and 'None of the above' not in col]].fillna('')
         competitors = pd.melt(competitors)['value']
         competitors = competitors.unique().tolist()
         spend_competitor = seg_df.iloc[0]['How much do you spend at these places each month?Open-Ended Response']
         if spend_competitor == 'No value': spend_competitor = 'not recorded'
-        freq = seg_df.iloc[0]['Thinking back over the last 3 months, how regularly did you shop with Woolworths']
-        app_shop = seg_df.iloc[0]['Have you used the Woolworths app to shop?']
+        freq = seg_df.iloc[0]['Thinking back over the last 3 months, how regularly did you shop with Walmart']
+        app_shop = seg_df.iloc[0]['Have you used the Walmart app to shop?']
         num_competitor = seg_df.iloc[0]['Number of competitors']
         if num_competitor==1: competitor_text='competitor'
         else: competitor_text='competitors'
-        ww_spend_orig = seg_df.iloc[0]['Spend at Woolworths Untreated Range']
-        ww_spend_filled = seg_df.iloc[0]['Spend at Woolworths Range']
+        ww_spend_orig = seg_df.iloc[0]['Spend at Walmart Untreated Range']
+        ww_spend_filled = seg_df.iloc[0]['Spend at Walmart Range']
         if ww_spend_orig == '': ww_spend_orig=ww_spend_filled + '(predicted)'
         purchase_behaviour = seg_df.iloc[0]['FIS_persona']
         loyalty = seg_df.iloc[0]['FNs_persona']
@@ -510,7 +508,7 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
         col1, col2, col3 = st.columns(3, gap='small')
         
         #COLUMN 1.......................................
-        # add the age, income, spend at woolworths and benefits to column 1
+        # add the age, income, spend at Walmart and benefits to column 1
         with col1:
             st.markdown('''<h6 style="color:#0033A0;">Bio</h6>''', unsafe_allow_html=True)
             st.markdown(
@@ -544,7 +542,7 @@ if udfs.authenticate_user(placeholder,sb_placeholder):
             # write the shopping style of the customer
             st.markdown(f'''<h6 style="color:#0033A0;">Shopping style</h6>
                     <font style="font-size:14px;">
-                        {customer} shops from Woolworths <font><strong>{freq.lower()}</strong></font> in three months. <br>
+                        {customer} shops from Walmart <font><strong>{freq.lower()}</strong></font> in three months. <br>
                         {pronoun} says and I quote, "I usually shop for <font><strong>{shop_for}</strong></font>."
                         </font><br><br>''', unsafe_allow_html=True)
         

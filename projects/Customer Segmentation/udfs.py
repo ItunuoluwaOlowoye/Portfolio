@@ -96,34 +96,34 @@ def data_transform_phase_one(filepath):
     
     # replace _NA, _Response and _ with empty strings in the column names
     df.columns = df.columns.str.replace('_NA','').str.replace('_Response','')\
-    .str.replace('_','').str.replace(' & ','&').str.replace(' - ','-').str.replace(r'(:)$','',regex=True)\
+    .str.replace(' & ','&').str.replace(' - ','-').str.replace(r'(:)$','',regex=True)\
     .str.replace('- ','-')
     for col in df.columns:
         if df[col].dtype == 'object':
             df[col] = df[col].str.replace('_NA','').str.replace('_Response','')\
                 .str.replace('_','').str.replace(' & ','&').str.replace(' - ','-').str.replace(r'(:)$','',regex=True)\
                     .str.replace('- ','-')
-    
-    # convert Respondent ID column from integer to string
+    st.write(df.head(1))
+    # convert customer_id column from integer to string
     # if the id was initially written as exponential, we need to remove the .0 at the end after converting to a string
-    df['Respondent ID'] = df['Respondent ID'].astype(str).str.replace('.0','',regex=False)
+    df['customer_id'] = df['customer_id'].astype(str).str.replace('.0','',regex=False)
     
     # fill null values with prefer not to say
-    df['Gender'].fillna('prefer not to say', inplace=True)
+    df['gender'].fillna('prefer not to say', inplace=True)
     
     # convert the age ranges to categories from youngest to oldest
-    age_category = ['19-25', '26-35', '36-45', '46-55', '56-70', '71+']
-    df['How old are you?'] = pd.Categorical(df['How old are you?'], categories=age_category, ordered=True)
+    age_category = ["19 to 25", "26 to 35", "36 to 45", "45 to 60", "Above 60"]
+    df['age_range'] = pd.Categorical(df['age_range'], categories=age_category, ordered=True)
     
     # create an age column with the lower bound of the age ranges
-    split_age = df['How old are you?'].str.split('-',expand=True)
+    split_age = df['age_range'].str.split(' to ',expand=True)
     df['age'] = split_age[0].str.extract('(\d+)').astype(int)
-    df_nullincome = pd.read_csv('wwsurvey.csv')
-    df_nullincome = df_nullincome[['What is your total annual household income?_Response']]
-    df['What is your total annual household income? Untreated'] = df_nullincome
+    #df_nullincome = pd.read_csv('wwsurvey.csv')
+    #df_nullincome = df_nullincome[['total_annual_household_income_Response']]
+    #df['total_annual_household_income Untreated'] = df_nullincome
     
     # create an income column with the lower and upper bounds of the income ranges
-    split_income = df['What is your total annual household income?'].str.replace(',','')
+    split_income = df['total_annual_household_income'].str.replace(',','')
     lower_income_range = split_income.str.split().str[0].str.extract('(\d+)').astype(float)
     min_lower_income_range = lower_income_range.min()
     lower_income_range.fillna(min_lower_income_range/2, inplace=True)
@@ -132,25 +132,26 @@ def data_transform_phase_one(filepath):
     higher_income_range.fillna(max_higher_income_range*2, inplace=True)
     df['income'] = (lower_income_range + higher_income_range)/2
     total_income = df['income']
-    income_condition = [total_income<120000, total_income<240000, total_income<360000, total_income<480000, total_income<600000,
-                        total_income<1200000, total_income>=1200000]
-    income_category = ['Less than R120000', 'R120000 to R239000', 'R240000 to R359000', 'R360000 to R479000', 'R480000 to R599000',
-                        'R600000 to R1200000', 'R1200000 or more']
-    df['What is your total annual household income?'] = np.select(
-        income_condition, income_category, default=df['What is your total annual household income?']
-    )
+    #income_condition = [total_income<120000, total_income<240000, total_income<360000, total_income<480000, total_income<600000,
+    #                    total_income<1200000, total_income>=1200000]
+    income_category = ["Under $15,000", "$15,000 to $24,999", "$25,000 to $34,999", "$35,000 to $49,999",
+                       "$50,000 to $74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 to $199,999",
+                       "$200,000 and above"]
+    #df['total_annual_household_income'] = np.select(
+   #     income_condition, income_category, default=df['total_annual_household_income']
+    #)
     
     # convert the income ranges to categories from smallest to largest
-    df['What is your total annual household income?'] = pd.Categorical(df['What is your total annual household income?'],
-                                                                                    categories=income_category, ordered=True)
+    df['total_annual_household_income'] = pd.Categorical(df['total_annual_household_income'],
+                                                         categories=income_category, ordered=True)
     
     # select columns with the above prefix
     freq_cols = []
     for column in df.columns:
-        if 'Thinking back over the last 3 months, how regularly did you shop with Woolworths for different products' in column:
+        if 'how_often_you_shopped' in column:
             freq_cols.append(column)
-    freq_cat_list = ['Never', 'Once or twice', 'Monthly', 'Every 2 weeks', 'Weekly', 'More than once per week']
-    freq_num_list = [0,2,3,6,12,52]
+    freq_cat_list = ['More than once per week', 'Weekly', 'Every two weeks', 'Monthly', 'Once or twice', 'Never']
+    freq_num_list = [52,12,6,3,2,0]
     freq_num_replacement = dict(zip(freq_cat_list, freq_num_list))
     freq_cat_replacement = dict(zip(freq_num_list, freq_cat_list))
     
@@ -161,22 +162,22 @@ def data_transform_phase_one(filepath):
         df[column] = pd.Categorical(df[column], ordered=True,
                                                     categories=freq_cat_list)
         # create a numerical frequency column
-        product_type = column.split(':')[1]
+        product_type = column.removeprefix('how_often_you_shopped_').removesuffix('_at_walmart_in_past_three_mnths')
         df['Shopping Frequency:'+product_type] = df[column].replace(freq_num_replacement)
     
     customers_columns = list(df.columns)
     df['general_freq'] = df.loc[:, [col for col in customers_columns
                                                                     if 'Shopping Frequency' in col]].max(axis=1)
-    df['Thinking back over the last 3 months, how regularly did you shop with Woolworths']\
+    df['Thinking back over the last 3 months, how regularly did you shop with Walmart']\
     = df['general_freq'].replace(freq_cat_replacement)
-    df['Thinking back over the last 3 months, how regularly did you shop with Woolworths'] = \
-        pd.Categorical(df['Thinking back over the last 3 months, how regularly did you shop with Woolworths'], 
+    df['Thinking back over the last 3 months, how regularly did you shop with Walmart'] = \
+        pd.Categorical(df['Thinking back over the last 3 months, how regularly did you shop with Walmart'], 
         ordered=True, categories=freq_cat_list)
     
-    # select columns for how much they spend at Woolworths
+    # select columns for how much they spend at Walmart
     spend_cols = []
     for column in df.columns:
-        if 'How much do you normally spend, per shop, when you shop at Woolworths?' in column:
+        if 'How much do you normally spend, per shop, when you shop at Walmart?' in column:
             spend_cols.append(column)
     spend_cat_list = ['R350-R500', 'R500-R1000', 'R1000-R2000', 'Above R2000']
     for column in spend_cols:
@@ -187,16 +188,16 @@ def data_transform_phase_one(filepath):
         lower_spend_range = df[column].str.split('-').str[0].str.extract('(\d+)').astype(float)
         higher_spend_range = df[column].str.split('-').str[-1].str.extract('(\d+)').astype(float)
         price = column.split('?')[1]
-        df['Spend at Woolworths:'+price] = (lower_spend_range + higher_spend_range)/2
+        df['Spend at Walmart:'+price] = (lower_spend_range + higher_spend_range)/2
     
     # select columns for whether they have used the app
     app_cols = []
     for column in df.columns:
-        if 'Have you used the Woolworths app to shop?' in column:
+        if 'Have you used the Walmart app to shop?' in column:
             app_cols.append(column)
     
     # Coalesce answers
-    df['Have you used the Woolworths app to shop?'] = df[
+    df['Have you used the Walmart app to shop?'] = df[
         app_cols
     ].bfill(axis=1).iloc[:,0]
     
@@ -206,7 +207,7 @@ def data_transform_phase_one(filepath):
     # select columns with competitors
     competitor_cols = []
     for column in df.columns:
-        if 'Where else do you shop for food and clothing online, if not Woolworths?' in column:
+        if 'Where else do you shop for food and clothing online, if not Walmart?' in column:
             competitor_cols.append(column)
     
     # create a column with number of competitors each customer frequents
@@ -249,27 +250,27 @@ def data_transform_phase_two(df):
     cust_cols = list(df.columns)
     
     # list columns that don't need to be unpivoted
-    feature_cols = ['Respondent ID', 'Gender', 'How old are you?', 'Who do you normally shop for?',
-    'What is your total annual household income?','How much do you spend at these places each month?Open-Ended Response', 'age',
-    'income', 'Have you used the Woolworths app to shop?', 'Number of competitors'] +\
-    [col for col in cust_cols if 'Thinking back over the last 3 months, how regularly did you shop with Woolworths' in col]
+    feature_cols = ['customer_id', 'gender', 'age_range', 'Who do you normally shop for?',
+    'total_annual_household_income','How much do you spend at these places each month?Open-Ended Response', 'age',
+    'income', 'Have you used the Walmart app to shop?', 'Number of competitors'] +\
+    [col for col in cust_cols if 'Thinking back over the last 3 months, how regularly did you shop with Walmart' in col]
     
     # create a dataframe with the columns that do not need to be unpivoted
     features = df[feature_cols]
     
     # list columns with basic customer features and equal number of items to be unpivoted
-    equal_unpivot_cols = ['Respondent ID', 'Gender', 'How old are you?', 'age', 'What is your total annual household income?'] +\
-    [col for col in cust_cols if 'Over the last 3 months, which method best describes how you most often shop at Woolworths' in col] +\
-        [col for col in cust_cols if 'How much do you normally spend, per shop, when you shop at Woolworths' in col] +\
+    equal_unpivot_cols = ['customer_id', 'gender', 'age_range', 'age', 'total_annual_household_income'] +\
+    [col for col in cust_cols if 'Over the last 3 months, which method best describes how you most often shop at Walmart' in col] +\
+        [col for col in cust_cols if 'How much do you normally spend, per shop, when you shop at Walmart' in col] +\
             [col for col in cust_cols if 'How would you describe the fashion/ home/beauty items you usually buy?' in col] +\
-                [col for col in cust_cols if 'Spend at Woolworths' in col]
+                [col for col in cust_cols if 'Spend at Walmart' in col]
     
     # create a dataframe with the columns with equal number of items to be unpivoted
     unpivot_features = df[equal_unpivot_cols]
     
     # put each product's channel preference in a list
     food_channel_cols, fashion_channel_cols, beauty_channel_cols, home_channel_cols = ([] for _ in range(4))
-    channel_pref = 'Over the last 3 months, which method best describes how you most often shop at Woolworths?'
+    channel_pref = 'Over the last 3 months, which method best describes how you most often shop at Walmart?'
     for column in unpivot_features.columns:
         if channel_pref in column:
             if 'Food' in column:
@@ -283,8 +284,8 @@ def data_transform_phase_two(df):
     
     # put each spend value column in a list (category and numeric)
     spend_cat_cols, spend_num_cols = ([] for _ in range(2))
-    spend_category = 'How much do you normally spend, per shop, when you shop at Woolworths?'
-    spend_numeric = 'Spend at Woolworths'
+    spend_category = 'How much do you normally spend, per shop, when you shop at Walmart?'
+    spend_numeric = 'Spend at Walmart'
     for column in unpivot_features.columns:
         if spend_category in column:
             spend_cat_cols.append(column)
@@ -305,7 +306,7 @@ def data_transform_phase_two(df):
                                                     sale_type:sale_type_cols}, dropna=False)
     
     # list columns with basic customer features and benefits features
-    benefit_features_cols = ['Respondent ID', 'Gender', 'How old are you?', 'age', 'What is your total annual household income?'] +\
+    benefit_features_cols = ['customer_id', 'gender', 'age_range', 'age', 'total_annual_household_income'] +\
         [col for col in cust_cols if 'Do you have any of the following? Please tick all the apply' in col]
     
     # create a dataframe with benefits features
@@ -324,22 +325,22 @@ def data_transform_phase_two(df):
     # select columns with the above prefix
     competitor_cols = []
     for column in df.columns:
-        if 'Where else do you shop for food and clothing online, if not Woolworths?' in column:
+        if 'Where else do you shop for food and clothing online, if not Walmart?' in column:
             competitor_cols.append(column)
     
     # list columns with basic customer features and competitor features
-    competitor_df_cols = ['Respondent ID', 'Gender', 'How old are you?', 'What is your total annual household income?'] + competitor_cols
+    competitor_df_cols = ['customer_id', 'gender', 'age_range', 'total_annual_household_income'] + competitor_cols
     
     # create a competitors dataframe
     competitor_features = df[competitor_df_cols]
     
     # unpivot the dataframe
-    competitor_features = pd.lreshape(competitor_features, {'Where else do you shop for food and clothing online, if not Woolworths?':
+    competitor_features = pd.lreshape(competitor_features, {'Where else do you shop for food and clothing online, if not Walmart?':
                                                         competitor_cols}, dropna=False)
     return features, unpivot_features, benefit_features, competitor_features
 
 @st.cache_data(ttl=10*60)
-def dashboard_bar_charts(df,column,title,type='univariate',dformat='normal',x_labels=False,x_title=None,id='Respondent ID',limit=False, limit_number=5, hide_record='',additional_text=''):
+def dashboard_bar_charts(df,column,title,type='univariate',dformat='normal',x_labels=False,x_title=None,id='customer_id',limit=False, limit_number=5, hide_record='',additional_text=''):
     # if univariate, to count the number of occurences for each unique value and sort in descending order
     if type == 'univariate':
         chart_df = df[column].value_counts().to_frame().reset_index()\
@@ -425,8 +426,8 @@ def seg_line_chart(df, sort_order:list, x='Attribute', y='Avg Value', color='Clu
 
 @st.cache_data(ttl=10*60)
 def seg_heat_map(df, sort_order:list, x='Attribute', y='Cluster', height=400, show=True):
-    # to remove respondent id if present
-    df = df[df['Attribute'] != 'Respondent ID']
+    # to remove customer_id if present
+    df = df[df['Attribute'] != 'customer_id']
     
     # to plot and label chart
     chart = alt.Chart(df, title='Relative Feature Importance per Cluster').mark_rect().encode(x=alt.X('Attribute', axis=alt.Axis(title=None), sort=sort_order), y='Cluster', color='Value')
@@ -537,7 +538,7 @@ def list_customers(df, cols_to_select, select_cluster, seg_type='purchase_behavi
         cluster_selection = col1.selectbox('Select cluster',options=select_cluster, key=key)
         # filter df to selected cluster
         if cluster_selection:
-            df_cluster = df[df[f'{seg_type}_cluster']==cluster_selection][cols_to_select].set_index('Respondent ID')
+            df_cluster = df[df[f'{seg_type}_cluster']==cluster_selection][cols_to_select].set_index('customer_id')
             persona_df = df[[f'{seg_type}_cluster',f'{persona_type}_persona']]
             persona_df = persona_df[persona_df[f'{seg_type}_cluster']==cluster_selection]
             col1.markdown('<h4>Persona:</h4>',unsafe_allow_html=True)

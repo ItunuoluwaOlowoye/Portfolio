@@ -12,61 +12,58 @@ import udfs # user defined functions in a py script of the same name
 # set random seed for KMeans and KModes reproducibility
 random.seed(1)
 
-# for connecting to google sheets
-gs_credentials = ServiceAccountCredentials.from_json_keyfile_name('misc/serviceacct.json')
-
 @st.cache_data(ttl=10*60)
 def calc_df():
     # clean up the data
-    customer_df = udfs.data_transform_phase_one('phase2.csv')
+    customer_df = udfs.data_transform_phase_one('survey_data.csv')
     # create dataframes for dashboard
     features_df, channel_spend_sale_df, benefits_df, competitor_df = udfs.data_transform_phase_two(customer_df)
     # put column names into variables
     id, gender_col, cat_age_col, num_age_col, cat_income_col, num_income_col, shop_for_col, high_freq_col, \
         wwspend_col, saletype_col, benefits_col, comp_num_col, comp_spend_col, comp_list_col, used_app_col, prod_pref_list, channel_pref_list\
-            = 'Respondent ID', 'Gender', 'How old are you?', 'age', 'What is your total annual household income?', 'income', 'Who do you normally shop for?', 'Thinking back over the last 3 months, how regularly did you shop with Woolworths',\
-                'How much do you normally spend, per shop, when you shop at Woolworths?', 'How would you describe the fashion/ home/beauty items you usually buy?',\
-                    'Do you have any of the following? Please tick all the apply', 'Number of competitors', 'How much do you spend at these places each month?Open-Ended Response', 'Where else do you shop for food and clothing online, if not Woolworths?',\
-                    'Have you used the Woolworths app to shop?', [col for col in features_df.columns if 'Thinking back over the last 3 months, how regularly did you shop with Woolworths for different products' in col], \
-                    [col for col in channel_spend_sale_df.columns if 'Over the last 3 months, which method best describes how you most often shop at Woolworths?' in col]
-    # create average spend per customer in Woolworths
-    cust_avg_spend = channel_spend_sale_df.groupby('Respondent ID').mean()[['Spend at Woolworths']]
-    mean_cust_avg_spend = cust_avg_spend['Spend at Woolworths'].mean()
-    cust_avg_spend['Spend at Woolworths Untreated'] = cust_avg_spend['Spend at Woolworths'].copy()
+            = 'customer_id', 'gender', 'age_range', 'age', 'What is your total annual household income?', 'income', 'Who do you normally shop for?', 'Thinking back over the last 3 months, how regularly did you shop with Walmart',\
+                'How much do you normally spend, per shop, when you shop at Walmart?', 'How would you describe the fashion/ home/beauty items you usually buy?',\
+                    'Do you have any of the following? Please tick all the apply', 'Number of competitors', 'How much do you spend at these places each month?Open-Ended Response', 'Where else do you shop for food and clothing online, if not Walmart?',\
+                    'Have you used the Walmart app to shop?', [col for col in features_df.columns if 'Thinking back over the last 3 months, how regularly did you shop with Walmart for different products' in col], \
+                    [col for col in channel_spend_sale_df.columns if 'Over the last 3 months, which method best describes how you most often shop at Walmart?' in col]
+    # create average spend per customer in Walmart
+    cust_avg_spend = channel_spend_sale_df.groupby('customer_id').mean()[['Spend at Walmart']]
+    mean_cust_avg_spend = cust_avg_spend['Spend at Walmart'].mean()
+    cust_avg_spend['Spend at Walmart Untreated'] = cust_avg_spend['Spend at Walmart'].copy()
     # fill null values with the total average
-    cust_avg_spend['Spend at Woolworths'] = cust_avg_spend['Spend at Woolworths'].fillna(mean_cust_avg_spend)
-    # create categorical ranges for the spend at Woolworths
-    untreated_avg_spend = cust_avg_spend['Spend at Woolworths Untreated']
-    treated_avg_spend = cust_avg_spend['Spend at Woolworths']
+    cust_avg_spend['Spend at Walmart'] = cust_avg_spend['Spend at Walmart'].fillna(mean_cust_avg_spend)
+    # create categorical ranges for the spend at Walmart
+    untreated_avg_spend = cust_avg_spend['Spend at Walmart Untreated']
+    treated_avg_spend = cust_avg_spend['Spend at Walmart']
     spend_cat_list = ['R350-R500', 'R500-R1000', 'R1000-R2000', 'Above R2000']
     untreated_spend_condition = [untreated_avg_spend<500, untreated_avg_spend<1000,
                     untreated_avg_spend<2000, untreated_avg_spend>=2000]
     treated_spend_condition = [treated_avg_spend<500, treated_avg_spend<1000,
                     treated_avg_spend<2000, treated_avg_spend>=2000]
-    cust_avg_spend['Spend at Woolworths Untreated Range'] = np.select(
+    cust_avg_spend['Spend at Walmart Untreated Range'] = np.select(
         untreated_spend_condition, spend_cat_list
     )
-    cust_avg_spend['Spend at Woolworths Range'] = np.select(
+    cust_avg_spend['Spend at Walmart Range'] = np.select(
         treated_spend_condition, spend_cat_list
     )
-    cust_avg_spend['Spend at Woolworths Untreated Range'] = pd.Categorical(
-        cust_avg_spend['Spend at Woolworths Untreated Range'], ordered=True, categories=spend_cat_list
+    cust_avg_spend['Spend at Walmart Untreated Range'] = pd.Categorical(
+        cust_avg_spend['Spend at Walmart Untreated Range'], ordered=True, categories=spend_cat_list
     )
-    cust_avg_spend['Spend at Woolworths Range'] = pd.Categorical(
-        cust_avg_spend['Spend at Woolworths Range'], ordered=True, categories=spend_cat_list
+    cust_avg_spend['Spend at Walmart Range'] = pd.Categorical(
+        cust_avg_spend['Spend at Walmart Range'], ordered=True, categories=spend_cat_list
     )
     # merge the spend columns with the original df
-    customer_df = customer_df.merge(cust_avg_spend.reset_index(), on='Respondent ID', how='left')
-    # create a spend ratio column of spend at woolworths vs spend at competitors
-    customer_df['spend_ratio_ww_vs_comp'] = customer_df['Spend at Woolworths'] / customer_df['competitor_spend'].map(lambda x:1 if x==0 else x)
+    customer_df = customer_df.merge(cust_avg_spend.reset_index(), on='customer_id', how='left')
+    # create a spend ratio column of spend at Walmart vs spend at competitors
+    customer_df['spend_ratio_ww_vs_comp'] = customer_df['Spend at Walmart'] / customer_df['competitor_spend'].map(lambda x:1 if x==0 else x)
     
     # NOTE: Purchase behaviour modelling
     # create dataframes for numeric frequency, income, and spend
     freq_income = customer_df[['general_freq', 'income']]
-    ww_spend = np.log(customer_df[['Spend at Woolworths']])
+    ww_spend = np.log(customer_df[['Spend at Walmart']])
     
     # create raw and features dataframe
-    bhv_df_raw = customer_df[['general_freq', 'income', 'Spend at Woolworths']]
+    bhv_df_raw = customer_df[['general_freq', 'income', 'Spend at Walmart']]
     bhv_df_features = pd.concat([freq_income,ww_spend,],axis=1)
     
     # create dataframe of interpreted cluster results
@@ -90,7 +87,7 @@ def calc_df():
         
     # NOTE: Competitor landscape/loyalty
     # create raw and features df
-    lty1_df_raw = customer_df[['Respondent ID', 'general_freq','Number of competitors','spend_ratio_ww_vs_comp']]
+    lty1_df_raw = customer_df[['customer_id', 'general_freq','Number of competitors','spend_ratio_ww_vs_comp']]
     freq = customer_df[['general_freq']]
     num_comp = np.cbrt(customer_df[['Number of competitors']])
     spend_ratio_ww_vs_comp = np.log(customer_df[['spend_ratio_ww_vs_comp']])
@@ -103,7 +100,7 @@ def calc_df():
     lty1_cluster_result = pd.DataFrame(data={
         'Cluster':['0','1','2','3','4'],
         'FNS_category':['low frequency, mid competition, low spend ratio', 'high frequency, high competition, low to mid spend ratio', 'low frequency, high competition', 'low frequency, low number of competitors, high spend ratio', 'high frequency, low competition, high spend ratio'],
-        'FNS_persona':['has a few other alternatives', 'prefers Woolworths but can still be swayed by competitors', 'has many alternatives and little loyalty to Woolworths', 'prefers Woolworths and has upselling opportunities', 'is loyal to Woolworths']
+        'FNS_persona':['has a few other alternatives', 'prefers Walmart but can still be swayed by competitors', 'has many alternatives and little loyalty to Walmart', 'prefers Walmart and has upselling opportunities', 'is loyal to Walmart']
     })
     
     # standardize df and create sses
@@ -115,7 +112,7 @@ def calc_df():
     
     # filter to treated customers
     fns_customer_df = customer_df[customer_df['spend_ratio_ww_vs_comp'].notnull()]
-    fns_customer_df = fns_customer_df.merge(lty1_df_fns_raw[['Respondent ID'] + list(lty1_cluster_result.columns)],how='outer',on='Respondent ID')
+    fns_customer_df = fns_customer_df.merge(lty1_df_fns_raw[['customer_id'] + list(lty1_cluster_result.columns)],how='outer',on='customer_id')
     fns_customer_df.rename(columns={'Cluster':'loyalty1_cluster'},inplace=True)
     
     # separate customers without spend ratio
@@ -126,7 +123,7 @@ def calc_df():
     lty2_cluster_result = pd.DataFrame(data={
         'Cluster':['0','1','2'],
         'FN_category':['high frequency', 'low frequency, low competition', 'low frequency, high competition'],
-        'FN_persona':['is loyal to Woolworths', 'has apathy towards both Woolworths and competitors', 'has many alternatives and little loyalty to Woolworths']
+        'FN_persona':['is loyal to Walmart', 'has apathy towards both Walmart and competitors', 'has many alternatives and little loyalty to Walmart']
     })
     
     # create standardized df and sse
@@ -138,7 +135,7 @@ def calc_df():
     
     # filter to treated customers
     fs_customer_df = customer_df[customer_df['spend_ratio_ww_vs_comp'].isnull()]
-    fs_customer_df = fs_customer_df.merge(lty2_df_fs_raw[['Respondent ID'] + list(lty2_cluster_result.columns)],how='outer',on='Respondent ID')
+    fs_customer_df = fs_customer_df.merge(lty2_df_fs_raw[['customer_id'] + list(lty2_cluster_result.columns)],how='outer',on='customer_id')
     fs_customer_df.rename(columns={'Cluster':'loyalty2_cluster'},inplace=True)
     
     # concat both treated customers df to recreate the original df
@@ -178,7 +175,7 @@ def calc_df():
 
     # NOTE: Channel Preference Segmentation
     # create raw df; the raw df was also used as features df
-    channel_selected_cols = [col for col in customer_df.columns if 'Over the last 3 months, which method best describes how you most often shop at Woolworths?' in col]
+    channel_selected_cols = [col for col in customer_df.columns if 'Over the last 3 months, which method best describes how you most often shop at Walmart?' in col]
     selection_list = [col.split('?')[1].split('-')[0] for col in channel_selected_cols]
     channel_df_raw = customer_df.loc[:,channel_selected_cols]
     for col in channel_df_raw.columns:
@@ -238,13 +235,13 @@ def calc_df():
                                      beauty_channel_persona = products_df_list['Beauty']['Persona'],)
     
     # separate persona columns
-    persona_df = customer_df.loc[:,['Respondent ID'] + [col for col in customer_df.columns if 'persona' in col]]
+    persona_df = customer_df.loc[:,['customer_id'] + [col for col in customer_df.columns if 'persona' in col]]
     
     # merge persona columns with dashboard dfs
-    features_df = features_df.merge(persona_df, on='Respondent ID', how='left')
-    channel_spend_sale_df = channel_spend_sale_df.merge(persona_df, on='Respondent ID', how='left')
-    benefits_df = benefits_df.merge(persona_df, on='Respondent ID', how='left')
-    competitor_df = competitor_df.merge(persona_df, on='Respondent ID', how='left')         
+    features_df = features_df.merge(persona_df, on='customer_id', how='left')
+    channel_spend_sale_df = channel_spend_sale_df.merge(persona_df, on='customer_id', how='left')
+    benefits_df = benefits_df.merge(persona_df, on='customer_id', how='left')
+    competitor_df = competitor_df.merge(persona_df, on='customer_id', how='left')         
 
     return customer_df, features_df, channel_spend_sale_df, benefits_df, competitor_df, id, gender_col, cat_age_col,\
     num_age_col, cat_income_col, num_income_col, shop_for_col, high_freq_col, wwspend_col, saletype_col,\
@@ -256,14 +253,3 @@ def calc_df():
     product_df_features, product_cluster_result, product_df_sse, product_df_melt_chart, product_df_relative_imp_chart,\
     products_df_sse, products_df_melt_chart_dict, products_df_relative_imp_chart_dict, products_df_list,\
     channel_selected_cols, channel_clusters, channel_cluster_result
-
-@st.cache_data(ttl=10*60)
-def save_model(customer_df):
-    gc = gs.authorize(gs_credentials) # give gspread library access to the private google sheet
-    gs_db = gc.open_by_url(st.secrets["private_gsheets_url"]) # open the spreadsheet
-    sheet_to_update = gs_db.worksheet('Sheet1') # open the specific sheet to update
-    customer_df = customer_df.astype(str) # convert all columns to strings to bypass any exceptions that may occur
-    customer_df.fillna('',inplace=True) # fill null values
-    # update the sheet
-    try: sheet_to_update.update([customer_df.columns.values.tolist()] + customer_df.values.tolist(), value_input_option='USER_ENTERED')
-    except: st.write('Segmentation model output was not saved to google sheets')
