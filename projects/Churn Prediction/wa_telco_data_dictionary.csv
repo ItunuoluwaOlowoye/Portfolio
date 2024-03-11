@@ -1,0 +1,24 @@
+﻿#,Feature,Feature description on customer,Dtype
+,,,
+1,CustomerID,Unique customer identification number,object
+2,Tenure,Total amount of months with the company by the end of the quarter.,object
+3,Gender,Gender,int64
+4,SeniorCitizen,If age is 65 or over,object
+5,Partner,If customer has a partner,object
+6,Dependents,"If living with any dependents (children, parents, grandparents, etc.)",int64
+7,PhoneService,If subscribed to home phone service.,object
+8,MultipleLines,If subscribed to multiple telephone lines.,object
+9,InternetService,If subscribed to internet service.,object
+10,OnlineSecurity,If subscribed to additional online security service,object
+11,OnlineBackup,If subscribed to additional online backup service.,object
+12,DeviceProtection,If subscribed to additional device protection plan for internet equipment.,object
+13,TechSupport,If subscribed to additional technical support plan with reduced wait times.,object
+14,StreamingTV*,Uses internet service to stream third party television programing.*,object
+15,StreamingMovies*,Uses internet service to stream third party movies.*,object
+16,Contract,Current contract type,object
+17,PaperlessBilling,If billing is paperless,object
+18,PaymentMethod,Current payment method,object
+19,MonthlyCharges,Total monthly charge for all services,float64
+20,TotalCharges,"Sum total of charges, calculated at the end of the quarter specified",object
+21,Churn,If left the company,object
+,,* = The company does not charge an additional fee for this service.,
