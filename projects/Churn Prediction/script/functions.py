@@ -67,9 +67,9 @@ def new_container(command:st, border:bool=True, height:Union[int, None]=None):
 # customer profiles intro columns
 def display_intro_columns():
     # create content
-    churn_insights = f"""{store_name} is a telecommunications company that provides home phone service and
-    internet subscriptions. We first inspect and explore the data to understand the factors that affected
-    churn in the last quarter"""
+    churn_insights = f"""{store_name} is a telecoms company that provides home phone service and
+    internet subscriptions. We analyze the data to understand the factors that affected
+    churn last quarter"""
     churn_model = """Churn means customers are leaving the network, which means revenue loss. The
     essence of training a churn prediction model is to avoid losing too much revenue"""
     actionable_insights = """Features of customers predicted to churn are studied to offer them incentives and
@@ -115,8 +115,8 @@ def facet_bar_chart(df:pd.DataFrame, xaxis:str, yaxis:str, facet:str, color_doma
 # 100% stacked bar chart
 def stacked_bar_chart(df:pd.DataFrame, column:str, hue:str='Churn', color_domain:str=color_domain,
                       color_range:str=color_range, chart_height:int=200):
-    stack_df = df.groupby([column, hue]).size()
-    stack_df_sum = df.groupby(column).size()
+    stack_df = df.groupby([column, hue], observed=False).size()
+    stack_df_sum = df.groupby(column, observed=False).size()
     stack_df = (stack_df/stack_df_sum).reset_index(name='percentage')
     
     chart = alt.Chart(stack_df).mark_bar().encode(
@@ -129,12 +129,11 @@ def stacked_bar_chart(df:pd.DataFrame, column:str, hue:str='Churn', color_domain
     return chart
 
 # analysis ingishts
-@st.cache_data(ttl="1h")
 def analysis_insights(df:pd.DataFrame):
     st.markdown('<span style="font-weight:bold; font-size:24px">Analysis Insights</span>',
                 unsafe_allow_html=True)
     # calculate churn rate
-    churn_rate = df['Churn'].value_counts(normalize=True)
+    churn_rate = df['Churn'].replace(string_mapping).value_counts(normalize=True)
     # calculate acquisition rate
     joined_last_quarter = df['Tenure'] <=3
     acquisition_rate = joined_last_quarter.map({True:'Yes', False:'No'}).value_counts(normalize=True)
@@ -150,6 +149,7 @@ def analysis_insights(df:pd.DataFrame):
     col1, col2, col3 = st.columns(3, gap='medium')
 
     # Create the churn vs acquisition chart
+    st.write(churn_vs_acquisition)
     chart = facet_bar_chart(df=churn_vs_acquisition, xaxis='Churn', yaxis='proportion', facet='level_0')
     with new_container(bar_scatter_col):
         st.altair_chart(chart, use_container_width=True)
@@ -159,7 +159,7 @@ def analysis_insights(df:pd.DataFrame):
                     </div>''',
                     unsafe_allow_html=True)
     
-    scatter_df = telco_df.copy()
+    scatter_df = df.copy()
     scatter_df['Churn'] = scatter_df['Churn'].replace(numeric_mapping).astype(float)
     scatter_df = scatter_df.groupby('Tenure', as_index=False).Churn.mean()
     chart = alt.Chart(scatter_df).mark_point(color=secondary_color).encode(
@@ -185,7 +185,7 @@ def analysis_insights(df:pd.DataFrame):
     with new_container(col1):
         st.altair_chart(chart, use_container_width=True)
         st.markdown(f'''<div style='font-size:14px; padding-bottom:5px'>
-                    Customers without partners are more likely to churn</div>''',
+                    Customers who do not have partners are more likely to churn.</div>''',
                     unsafe_allow_html=True)
 
     chart = stacked_bar_chart(df=df, column='StreamingTV')
@@ -240,8 +240,8 @@ def analysis_insights(df:pd.DataFrame):
     mask = np.zeros_like(corr_df, dtype=bool)
     mask[np.triu_indices_from(mask)] = True
     # Setup the correlation matrix as a heatmap with diverging colors
-    sns.heatmap(corr_df, mask=mask, cmap='seismic', annot=True, vmax=1, vmin=-1, linewidths=.5)
-    with new_container(heatmap_col, height=770):
+    sns.heatmap(corr_df, mask=mask, cmap='BrBG_r', annot=True, vmax=1, vmin=-1, linewidths=.5)
+    with new_container(heatmap_col, border=False):
         st.pyplot(fig)
         st.markdown(f'''<div style='font-size:14px; padding-bottom:5px'>
                     <p>There is a high positive correlation between fibre optic service and monthly charges.
@@ -305,18 +305,13 @@ def churn_model(df:pd.DataFrame):
 
     col1, col2, col3 = st.columns(3)
     with new_container(col1, height=400):
-        st.markdown(f'The Area Under Curve (**AUC**) score is **{auc_score*100:.2f}%**')
         st.altair_chart(chart, use_container_width=True)
-    new_container(col2).metric(label='Accuracy', value=f'{accuracy*100:.2f}%')
-    new_container(col2).metric(label='Precision of retained customers prediction',
-                               value=f'{precision_retained*100:.2f}%')
-    new_container(col2).metric(label='Precision of churned customers prediction',
-                               value=f'{precision_churn*100:.2f}%')
-    new_container(col3).metric(label='Recall value of retained customers prediction',
-                               value=f'{recall_retained*100:.2f}%')
-    new_container(col3).metric(label='Recall value of churned customers prediction',
-                               value=f'{recall_churn*100:.2f}%')
-    new_container(col3).metric(label='Accuracy', value=f'{accuracy*100:.2f}%')
+    col2.metric(label='Area Under Curve (**AUC**) score', value=f'{auc_score*100:.2f}%')
+    col2.metric(label='Accuracy', value=f'{accuracy*100:.2f}%')
+    col2.metric(label='Recall value of retained customers prediction', value=f'{recall_retained*100:.2f}%')
+    col3.metric(label='Recall value of churned customers prediction', value=f'{recall_churn*100:.2f}%')
+    col3.metric(label='Precision of retained customers prediction', value=f'{precision_retained*100:.2f}%')
+    col3.metric(label='Precision of churned customers prediction', value=f'{precision_churn*100:.2f}%')
 
 
 ############## DATA FUNCTIONS #############
